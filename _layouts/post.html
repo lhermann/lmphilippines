@@ -1,13 +1,14 @@
 ---
 layout: base
 ---
-{% if page.cover_image %}
+
 <div class="article-cover">
-    <div>
-        <img src="/images/{{ page.cover_image }}" class="image">
+    <div class="image-wrapper">
+        <img src="{% if page.cover_image %}/images/{{page.cover_image}}{% else %}{{ site.inc.cover_image }}{% endif %}" class="image">
     </div>
 </div>
-{% endif %}
+
+
 <article>
 
     <div class="container">
@@ -27,8 +28,8 @@ layout: base
 
         <footer>
             <address>
-               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
-                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
+               {% if page.author.image %}<img src="/images/authors/{{ page.author.image }}">{% endif %}
+                <p>Written by <strong>{{ page.author.name }}</strong><br>
                 <span class="muted">{{ page.author.bio }}</span>
                 </p>
             </address>
