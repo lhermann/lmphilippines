@@ -2,8 +2,8 @@
 layout: post
 
 title: Not all miracles are instant
-subtitle: ...
-cover_image: 2017/04/firstfruits-cover.jpg
+subtitle: When we compare our students today with those just 15 years ago ...
+cover_image: 2017/05/not-all-miracles-are-instant-cover.jpg
 
 excerpt: "Laymen Ministries Philippines has now exceeded 15 years of service in the Philippines and has reached a major milestone ..."
 
@@ -32,11 +32,15 @@ In order to operate schools here, one must have Philippine government approval a
 
 Our supporters, who have been with us over the years, know that our original outreach was to the scattered, animistic, native tribes, who are among the poorest of the poor.
 
-**( file picture of “uncivilized” native.)**
+<figure class="row zoomable">
+    <div class="row__wrapper">
+        <span><img alt="Native with buffalo" src="{{site.img_dir}}/2017/05/native-with-buffalo.jpg" /></span>
+        <span><img alt="Students with screen" src="{{site.img_dir}}/2017/05/students-with-screen.jpg" /></span>
+    </div>
+    <figcaption>Comparing the native livestyle with today's native students</figcaption>
+</figure>
 
 When we compare our students today with those just 15 years ago, it is a miracle. Not all miracles are instant!
-
-**( Current file photo of students with computers)**
 
 Perhaps some think that missionary work consists of daily preaching or giving Bible studies. Well, actually it is, but not in the sense of inside a church building preaching, or even in a formal setting. Our daily activities “preach” and “witness” Bible studies in actual life, real time!
 
@@ -73,5 +77,3 @@ I just received this up-lifting text from one of our student missionaries, who i
 Friends of Laymen Ministries and the Philippine project, this type of message disperses our exhaustion and encourages us to press on for the Master in sharing His love to our fellowman.
 
 How is your mission for Him progressing? **Are you experiencing the joy, peace and fulfillment He promises His co-workers?** Surrendering totally to Jesus is the only way to experience the ability to love our fellowman and walk daily with Jesus in the greatest adventure in this life. We pray that you are experiencing this joy today! If you are and care to write and share with us your joy, we would be delighted to hear from you. If this is not your Christian experience and you would like to write us, we will be happy to pray for you and/or correspond with you!
-
-**(P.S. The picture of the mission boat on a wild ocean? That is an adventure we just experienced last Monday, but it will have to wait until the next adventure report.)**

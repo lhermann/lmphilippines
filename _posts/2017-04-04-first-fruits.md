@@ -37,10 +37,10 @@ Within a few years, our schools were fully recognized by the Department of Educa
 Within a few years, we were excited as our well prepared students were graduating grade 6 and going into Junior High School in the public schools.
 **THEN A BIG SURPRISE OCCURRED!** In the public schools, there is a very deeply engrained prejudice against indigenous tribes, by both teachers and students.  This attitude was so extreme that we felt led to open our own exclusive high school specifically for indigenous students.
 
-<div class="full zoomable">
+<figure class="full zoomable">
     <img alt="Sea Breeze" src="{{site.img_dir}}/2017/04/seabreeze.jpg">
-    <small>Sea Breeze Headquarters</small>
-</div>
+    <figcaption>Sea Breeze Headquarters</figcaption>
+</figure>
 
 We opened our headquarters building in Sea Breeze to serve as our first high school.  Soon the space was cramped, but God made a way!
 
@@ -52,10 +52,10 @@ Today we celebrate the senior high school graduation of Miss Meleth Parisan from
 
 We are excited about the impact this graduation will have on other indigenous students.  They will take strength from the fact that “one of ours” has achieved this coveted level and be assured that with perseverance they can too.
 
-<div class="full zoomable">
+<figure class="full zoomable">
     <img alt="Meleth at her Graduation" src="{{site.img_dir}}/2017/04/firstfruits1.jpg">
-    <small>Meleth at her Graduation with Jim Webb</small>
-</div>
+    <figcaption>Meleth at her Graduation with Jim Webb</figcaption>
+</figure>
 
 Thank you supporters for helping us reach this important goal.  We solicit your continued prayers and support.  After college, our graduates will be the missionaries, teachers, nurses, etc. to their own people.
 

@@ -1,4 +1,5 @@
 article {
+
     background:#fff;
     padding:60px 0;
     font-size:18px;
@@ -210,7 +211,39 @@ article {
         border: 1px solid #ddd;
     }
 
-    .full {
+}
+
+figure {
+
+    &.left {
+        margin: 0 2.5em 1.5em -6em;
+        float: left;
+
+        img {
+            transform-origin-x: -50%;
+        }
+    }
+
+    &.right {
+        margin: 1.5em -6em 0 2.5em;
+        float: right;
+
+        img {
+            transform-origin-x: 100%;
+        }
+    }
+
+    &.left,
+    &.right {
+        display: inline-block;
+        max-width: 300px;
+
+        .zoom {
+            transform: scale(1.4);
+        }
+    }
+
+    &.full {
         margin: 1.5em -6em;
         padding: 0;
         text-align: center;
@@ -226,25 +259,53 @@ article {
             display: block;
         }
 
-        img + small {
-            color: $textmuted;
+        .zoom {
+            transform: scale(1.2);
         }
+    }
 
-        &.zoomable {
-            img {
-                cursor: -webkit-zoom-in;
+    &.row {
+        margin: 1.5em -6em;
+        text-align: center;
+
+        .row__wrapper {
+
+            width: 100%;
+            display: table;
+            table-layout: fixed;
+            border-spacing: .5em;
+
+            span {
+                display: table-cell;
+                vertical-align: top;
             }
         }
 
-        &.zoomable img.zoom {
-            cursor: -webkit-zoom-out;
+        .zoom {
+            transform: scale(1.3);
         }
+    }
 
-        &.zoomable img.zoom {
-            -webkit-transform:scale(1.2);
-            transition:0.4s all ease;
-            box-shadow:0 2px 5px rgba(0,0,0,0.5);
-        }
+    &.zoomable img {
+        cursor: zoom-in;
+        transition:0.4s all ease;
+    }
+
+    &.zoomable .zoom {
+        cursor: zoom-out;
+        // transform: scale(1.2);
+        box-shadow:0 2px 5px rgba(0,0,0,.5);
+    }
+
+    img {
+        margin: 0;
+    }
+
+    figcaption {
+        margin-top: .5em;
+        font-size: 85%;
+        text-align: center;
+        color: $textmuted;
     }
 
 }
