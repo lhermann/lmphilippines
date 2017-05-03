@@ -5,7 +5,7 @@ title: First Fruit - First Graduate
 subtitle: 18 years ago we had a dream...
 cover_image: 2017/04/firstfruits-cover.jpg
 
-excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
+excerpt: "In 1998, Moni and I were invited to evaluate the best way to help our indigenous brothers and sisters living around the Northern end of the Philippine island of Mindoro."
 
 categories:
   - High school
