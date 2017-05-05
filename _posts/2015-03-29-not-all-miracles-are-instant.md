@@ -9,6 +9,7 @@ excerpt: "Laymen Ministries Philippines has now exceeded 15 years of service in 
 
 categories:
     - High school
+    - History
 
 author:
     name: Jim Webb
