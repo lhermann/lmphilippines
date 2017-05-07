@@ -27,11 +27,18 @@ layout: base
         </section>
 
         <footer>
-            <address>
-               {% if page.author.image %}<img src="/images/authors/{{ page.author.image }}">{% endif %}
-                <p>Written by <strong>{{ page.author.name }}</strong><br>
-                <span class="muted">{{ page.author.bio }}</span>
-                </p>
+            <address class="o-flag">
+                <div class="o-flag__img">
+                    {% if page.author.image %}
+                        <img src="/images/authors/{{ page.author.image }}">
+                    {% endif %}
+                </div>
+                <div class="o-flag__body">
+                    <p style="max-width: 400px">
+                        Written by <strong>{{ page.author.name }}</strong><br>
+                        <span class="muted">{{ page.author.bio }}</span>
+                    </p>
+                </div>
             </address>
 
         </footer>
