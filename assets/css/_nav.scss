@@ -86,3 +86,18 @@ body.nav-hidden {
     }
 }
 
+.nav-footer {
+    a {
+        color:#777;
+
+        &:hover {
+            color:#222;
+        }
+
+        &:not(:last-child):after {
+            content: "\a0\b7";
+            margin: 0 .4em;
+        }
+    }
+}
+

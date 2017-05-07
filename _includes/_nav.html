@@ -1,0 +1,5 @@
+{% for p in site.pages %}
+    {% if p.title and p.menu-position == "main" %}
+            <a href="{{p.url}}">{{p.title}}</a>
+    {% endif %}
+{% endfor %}
