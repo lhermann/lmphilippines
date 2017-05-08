@@ -55,13 +55,13 @@ a {
     overflow:hidden;
 
     &:after {
+        @include scrim-gradient(.5, 0);
         content: "";
         position: absolute;
         height: 200px;
         width: 100%;
         top: 0;
         left: 0;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, .4) 0%, transparent 100%);
     }
 
     > .image-wrapper {
@@ -95,13 +95,24 @@ a {
 }
 
 .blog-cover {
-    @extend .article-cover;
     height: 320px;
     background-color: #111;
     background-size: cover;
     background-position: center center;
     z-index:1;
     padding-top: 34.28%;
+    overflow: hidden;
+    position: relative;
+
+    &:after {
+        @include scrim-gradient(.55, 0);
+        content: "";
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
 
     section {
         text-align: center;
@@ -110,8 +121,7 @@ a {
         right: 0;
         top: 0;
         bottom:0;
-        background-color:rgba(0,0,0,.3);
-        background: linear-gradient(to bottom, rgba(0,0,0,.3) 0%, rgba(0,0,0,0) 100%);
+        background-color:rgba(0,0,0,.15);
         padding: 100px 0;
         z-index:10;
 
