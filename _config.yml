@@ -138,6 +138,7 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - node_modules
+  - serve.command
   - serve.sh
   - sync.sh
 
