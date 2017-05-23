@@ -2,45 +2,41 @@
 layout: base
 ---
 
-<div class="article-cover">
-    <div class="image-wrapper">
-        <img src="{% if page.cover_image %}/images/{{page.cover_image}}{% else %}{{ site.inc.cover_image }}{% endif %}" class="image">
-    </div>
-</div>
+<header class="c-site-cover" style="background-image:url({% if page.cover_image %}/images/{{page.cover_image}}{% else %}{{ site.inc.cover_image }}{% endif %});">
+</header>
 
+<section class="o-wrapper u-padding-top-huge">
 
-<article>
+    <article class="c-article">
 
-    <div class="container">
-        <header>
-            <div class="meta">
+        <header class="c-article__header">
+            <div class="c-article__meta">
                 By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a></address> &mdash;
                 <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </div>
-            <h1 class="title">{{ page.title }}</h1>
-            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+            <h1 class="c-article__title">{{ page.title }}</h1>
+            {% if page.subtitle %}<p class="c-article__subtitle">{{ page.subtitle }}</p>{% endif %}
         </header>
 
-        <section>
+        <section class="c-article__body">
             {{ content }}
             {% include _social.html %}
         </section>
 
-        <footer>
-            <address class="o-flag">
+        <footer class="c-article__footer">
+            <div class="o-flag">
                 <div class="o-flag__img">
                     {% if page.author.image %}
-                        <img src="/images/authors/{{ page.author.image }}">
+                        <img class="c-article__author-image" src="/images/authors/{{ page.author.image }}">
                     {% endif %}
                 </div>
                 <div class="o-flag__body">
                     <p style="max-width: 400px">
                         Written by <strong>{{ page.author.name }}</strong><br>
-                        <span class="muted">{{ page.author.bio }}</span>
+                        <span class="u-muted">{{ page.author.bio }}</span>
                     </p>
                 </div>
-            </address>
-
+            </div>
         </footer>
 
         {% if site.inc.disqus.shortname %}
@@ -48,5 +44,7 @@ layout: base
             {% include _disqus.html %}
         </section>
         {% endif %}
-    </div>
-</article>
+
+    </article>
+
+</section>

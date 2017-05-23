@@ -1,0 +1,67 @@
+/* ==========================================================================
+   #ARTICLE
+   ========================================================================== */
+
+.c-article {
+    margin: 0 $unit-large;
+}
+
+    .c-article__header {
+
+        &:after {
+            display: block;
+            margin: 1em 0;
+            background-color: $c-border;
+            width: 1.5em;
+            height: .2em;
+            content: " ";
+        }
+    }
+
+        .c-article__title {
+            line-height: 1;
+            margin-bottom: 0;
+        }
+
+        .c-article__subtitle {
+            margin-bottom: $unit-small;
+            color: $c-textmuted;
+            font-family: $font-headings;
+            font-size: 140%;
+        }
+
+        .c-article__meta {
+            text-transform: uppercase;
+            color: $c-textmuted;
+            font-size: 80%;
+            margin-bottom: $unit-small;
+
+            > * {
+                display: inline-block;
+                margin-bottom: 0;
+            }
+
+            a {
+                color: $c-textmuted;
+                border-bottom: 1px dotted $c-textmuted;
+
+                &:hover {
+                    color: $c-text;
+                }
+            }
+        }
+
+
+    .c-article__footer {
+        margin: $unit-large 0;
+        border-top: 1px solid $c-border;
+        border-bottom: 1px solid $c-border;
+        padding: $unit 0;
+        font-size: 80%;
+    }
+
+        .c-article__author-image {
+            border-radius: 54px;
+            width: 64px;
+            height: 64px;
+        }

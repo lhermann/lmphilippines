@@ -1,42 +1,35 @@
 ---
 layout: base
 ---
-<div class="blog-cover" style="background-image:url({{ site.inc.cover_image }});">
 
-    <section>
-        <div class="container">
-            <h1>{{ site.inc.title }}</h1>
-            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
+<header class="c-site-cover" style="background-image:url({{ site.inc.cover_image }});">
 
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+    <div class="c-site-cover__inner">
+        <div class="o-wrapper">
+            <h1 class="c-site-cover__title">{{ site.inc.title }}</h1>
+            {% if site.inc.subtitle %}
+                <h3 class="c-site-cover__subtitle">{{ site.inc.subtitle }}</h3>
             {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
-            {% endif %}
-            <!-- <a href="/feed.xml" title="RSS Feed">
-                <i class="icon icon-rss"></i>
-            </a> -->
         </div>
-    </section>
+    </div>
 
-</div>
+</header>
 
-<article>
+<section class="o-wrapper u-padding-top-huge">
 
-    <div class="container">
+    <article class="c-article">
 
-        <header>
-            <h1 class="title">{{ page.title }}</h1>
-            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+        <header class="c-article__header">
+            <h1 class="c-article__title">{{ page.title }}</h1>
+            {% if page.subtitle %}<h2 class="c-article__subtitle">{{ page.subtitle }}</h2>{% endif %}
         </header>
 
-        <section>
+        <section class="c-article__body">
 
             {{ content }}
 
         </section>
 
-    </div>
+    </article>
 
-</article>
+</section>

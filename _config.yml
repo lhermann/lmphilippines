@@ -110,7 +110,7 @@ redcloth:
   hard_breaks: true
 
 sass:
-  sass_dir: assets/css
+  sass_dir: _sass
   style: compressed
 
 #

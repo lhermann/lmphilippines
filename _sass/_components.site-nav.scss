@@ -1,0 +1,54 @@
+/* ==========================================================================
+   #SITE-NAV
+   ========================================================================== */
+
+// .c-site-nav {
+// }
+.c-site-nav--header {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    padding: $unit;
+}
+
+    .c-site-nav__list {
+        margin: 0;
+        list-style: none;
+    }
+
+        .c-site-nav__item {
+            display: inline-block;
+
+            .c-site-nav--footer &:not(:last-child):after {
+                content: "\a0\b7";
+            }
+        }
+
+            .c-site-nav__link {
+                display: inline-block;
+                transition: opacity $global-transition ease;
+                opacity: .75;
+                padding: 0 .4em;
+                vertical-align: bottom;
+                color: $c-text;
+                font-weight: 400;
+
+                .c-site-nav--header & {
+                    padding: 0 .8em;
+                }
+
+                .c-site-nav--header &,
+                .c-site-nav--header &:hover {
+                    color: #fff;
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+        .c-site-nav__logo {
+            margin: 0 auto;
+            height: 40px;
+            vertical-align: middle;
+        }

@@ -27,26 +27,26 @@ It all started 15 years ago when Allen and Maritess Branson started Laymen Minis
 
 Today, God has blessed and challenged us with 4 elementary schools and 1 high school, exclusively for these marginalized natives. Now we have almost 200 serious students in our schools.
 
-<div class="full zoomable">
-    <img alt="Students in the Village of Binuangan" src="{{site.img_dir}}/2012/01/2012_01_01_Pic3.jpg">
-    <small>Students in the Village of Binuangan</small>
-</div>
+<figure>
+    <img class="u-zoomable" alt="Students in the Village of Binuangan" src="{{site.img_dir}}/2012/01/2012_01_01_Pic3.jpg">
+    <figcaption>Students in the Village of Binuangan</figcaption>
+</figure>
 
 Our ultimate goal is to lift up Jesus by our daily example, as we teach hygiene, nutrition, basic reading and writing to ALL native children. While we desire to uplift all students, we are also looking for those motivated, qualified students that have the burning desire to get a quality education and become the missionaries to their own people.
 
 This is the reason we have the container on top of the mountain. God has allowed us to own 75 acres of remote property, yet only 15 km from the nearest town. Much of the property is rough and steep, but there are building sites, gardening sites and we already have a well on the property. There is also a site for a 100" tower, which will support our wind generator. A sweet Christian couple from California donated the 10 KW wind generator and built all the controls and batteries inside the container. In addition, they are flying in on Jan. 6 to erect the tower and connect the system. As an additional bonus, realizing that we have sporadic winds, but abundant sunshine, the system will be jointly powered by solar and wind.
 
-<div class="full zoomable">
-    <img alt="4 containers of practical items for the high school" src="{{site.img_dir}}/2012/01/2012_01_01_Pic4.jpg">
-    <small>4 containers of practical items for the high school</small>
-</div>
+<figure>
+    <img class="u-zoomable" alt="4 containers of practical items for the high school" src="{{site.img_dir}}/2012/01/2012_01_01_Pic4.jpg">
+    <figcaption>4 containers of practical items for the high school</figcaption>
+</figure>
 
 As the high school site will be totally off grid, we are deeply grateful for God’s children in the U.S. who donated not just 1, but 4 containers of practical items for the high school and also for our elementary schools. The following is only a partial listing of donated items: Champion Juicer, Magic Mill, the kitchen sink, paint, ladders, wheelbarrows , scaffolding, portable generators, Mason Ball jars for canning, garden tools, mechanic tools, John Deere Skid Steer, Bobcat Mini-excavator, 70 boxes of Christian books, bed sheets, and WOW! 50 lbs of Pinto beans! God and His family are indeed GOOD!
 
-<div class="full zoomable">
-    <img alt="John Deere Skid Steer" src="{{site.img_dir}}/2012/01/2012_01_01_Pic5.jpg">
-    <small>John Deere Skid Steer</small>
-</div>
+<figure>
+    <img class="u-zoomable" alt="John Deere Skid Steer" src="{{site.img_dir}}/2012/01/2012_01_01_Pic5.jpg">
+    <figcaption>John Deere Skid Steer</figcaption>
+</figure>
 
 Another exciting event on the Spring calendar is the arrival of a Swiss Fly and Build Team, for an evangelistic series and the beginning of construction of one of the high school buildings.
 

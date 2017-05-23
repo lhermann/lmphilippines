@@ -33,10 +33,10 @@ In order to operate schools here, one must have Philippine government approval a
 
 Our supporters, who have been with us over the years, know that our original outreach was to the scattered, animistic, native tribes, who are among the poorest of the poor.
 
-<figure class="row zoomable">
-    <div class="row__wrapper">
-        <span><img alt="Native with buffalo" src="{{site.img_dir}}/2017/05/native-with-buffalo.jpg" /></span>
-        <span><img alt="Students with screen" src="{{site.img_dir}}/2017/05/students-with-screen.jpg" /></span>
+<figure>
+    <div class="o-pack o-pack--tiny">
+        <span class="o-pack__item"><img class="u-zoomable" alt="Native with buffalo" src="{{site.img_dir}}/2017/05/native-with-buffalo.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoomable" alt="Students with screen" src="{{site.img_dir}}/2017/05/students-with-screen.jpg" /></span>
     </div>
     <figcaption>Comparing the native livestyle with today's native students</figcaption>
 </figure>

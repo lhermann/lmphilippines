@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #SITE-FOOTER
+   ========================================================================== */
+
+.c-site-footer {
+    margin-top: $unit-huge;
+    background-color: $c-background;
+    padding: $unit-large;
+    color: $c-textmuted;
+    font-size: 80%;
+}
+
+    .c-site-footer__nav {
+        display: inline-block;
+    }

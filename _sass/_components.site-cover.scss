@@ -1,0 +1,47 @@
+/* ==========================================================================
+   #SITE-COVER
+   ========================================================================== */
+
+.c-site-cover {
+    position: relative;
+    background-color: #111;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 34.28%;
+
+    &:after {
+        @include clothoid-gradient(#000, .55, 0);
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        content: "";
+    }
+}
+
+    .c-site-cover__inner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .15);
+        padding: $unit-huge 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+
+        .c-site-cover__title {
+            margin-bottom: 0;
+            line-height: 1.4em;
+            font-size: 260%;
+            font-weight: 600;
+        }
+
+        .c-site-cover__subtitle {
+            opacity: .6;
+            font-size: 120%;
+            font-weight: 400;
+        }
