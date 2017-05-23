@@ -185,8 +185,8 @@ figure {
     }
 
     img {
-        box-shadow: $global-shadow;
         border-radius: $global-radius;
+        box-shadow: $global-shadow;
     }
 }
 
@@ -209,7 +209,12 @@ $inuit-wrapper-width: 820px;
 @import "../node_modules/inuitcss/objects/objects.tables";
 @import "../node_modules/inuitcss/objects/objects.pack";
 
-
+.c-article {
+    .o-pack--tiny {
+        margin-right: -$unit-tiny;
+        margin-left: -$unit-tiny;
+    }
+}
 
 
 
