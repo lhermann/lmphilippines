@@ -116,55 +116,62 @@
  * Ghost buttons have see-through backgrounds and are bordered.
  */
 
-$btn-ghost-border-width: 2px;
+$btn-ghost-border-width: 1px;
 
 .c-btn--ghost {
-  border: $btn-ghost-border-width solid currentColor;
-  padding: ($inuit-global-spacing-unit-small - $btn-ghost-border-width) ($inuit-global-spacing-unit - $btn-ghost-border-width);
+    border: $btn-ghost-border-width solid currentColor;
+    padding: ($inuit-global-spacing-unit-small - $btn-ghost-border-width) ($inuit-global-spacing-unit - $btn-ghost-border-width);
+    opacity: .75;
 
-  &,
-  &:hover,
-  &:active,
-  &:focus {
-    background: none;
-  }
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+        background: none;
+    }
 
-  &.c-btn--small {
+    &:hover,
+    &:focus {
+        opacity: 1;
+    }
+
+    &.c-btn--small {
     padding: ($inuit-global-spacing-unit-tiny - $btn-ghost-border-width) ($inuit-global-spacing-unit-small - $btn-ghost-border-width);
-  }
+    }
 
-  &.c-btn--large {
+    &.c-btn--large {
     padding: ($inuit-global-spacing-unit - $btn-ghost-border-width) ($inuit-global-spacing-unit-large - $btn-ghost-border-width);
-  }
-
-  &.c-btn--primary {
-    color: #4a8ec2;
-
-    &:hover,
-    &:focus {
-      color: #3774a2;
     }
 
-  }
+    &.c-btn--primary {
+        color: $c-accent;
 
-  &.c-btn--secondary {
-    color: #2f4054;
+        // &:hover,
+        // &:focus {
+        //   color: #3774a2;
+        // }
 
-    &:hover,
-    &:focus {
-      color: #1d2733;
     }
 
-  }
+    &.c-btn--secondary {
+        color: $c-text;
 
-  &.c-btn--tertiary {
-    color: #fff;
+        // &:hover,
+        // &:focus {
+        //   color: #1d2733;
+        // }
 
-    &:hover,
-    &:focus {
-      color: #fff;
     }
 
-  }
+    &.c-btn--tertiary {
+        color: #fff;
+
+        &:hover,
+        &:focus {
+          color: #fff;
+
+        }
+
+    }
 
 }

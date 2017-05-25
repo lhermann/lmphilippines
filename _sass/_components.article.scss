@@ -3,10 +3,10 @@
    ========================================================================== */
 
 .c-article {
-    margin: 0 $unit-large;
+    margin: 0 $unit-small;
 
-    .o-pack--tiny {
-
+    @include mq($from: tablet) {
+        margin: 0 $unit-large;
     }
 }
 

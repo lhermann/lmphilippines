@@ -2,20 +2,31 @@
 layout: base
 ---
 
-<header class="c-site-cover" style="background-image:url({% if page.cover_image %}/images/{{page.cover_image}}{% else %}{{ site.inc.cover_image }}{% endif %});">
+<header class="c-site-cover"
+    style="background-image:url(
+        {% if page.cover_image %}/images/{{page.cover_image}}
+        {% else %}{{ site.inc.cover_image }}{% endif %}
+    );">
 </header>
 
-<section class="o-wrapper u-padding-top-huge">
+<section class="o-wrapper">
 
     <article class="c-article">
 
         <header class="c-article__header">
             <div class="c-article__meta">
-                By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a></address> &mdash;
-                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+                By <address>
+                    {{ page.author.name }}
+                </address> &mdash;
+                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}"
+                    title="{{ page.date | date: "%B %d, %Y" }}">
+                    {{ page.date | date: "%B %d, %Y" }}
+                </time>
             </div>
             <h1 class="c-article__title">{{ page.title }}</h1>
-            {% if page.subtitle %}<p class="c-article__subtitle">{{ page.subtitle }}</p>{% endif %}
+            {% if page.subtitle %}
+                <p class="c-article__subtitle">{{ page.subtitle }}</p>
+            {% endif %}
         </header>
 
         <section class="c-article__body">
@@ -27,7 +38,8 @@ layout: base
             <div class="o-flag">
                 <div class="o-flag__img">
                     {% if page.author.image %}
-                        <img class="c-article__author-image" src="/images/authors/{{ page.author.image }}">
+                        <img class="c-article__author-image"
+                            src="/images/authors/{{ page.author.image }}">
                     {% endif %}
                 </div>
                 <div class="o-flag__body">

@@ -3,11 +3,15 @@
    ========================================================================== */
 
 .c-site-footer {
-    margin-top: $unit-huge;
+    margin-top: $unit-large;
     background-color: $c-background;
-    padding: $unit-large;
+    padding: $unit-large 0;
     color: $c-textmuted;
     font-size: 80%;
+
+    @include mq($from: tablet) {
+        margin-top: $unit-huge;
+    }
 }
 
     .c-site-footer__nav {
