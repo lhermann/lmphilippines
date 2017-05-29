@@ -12,7 +12,7 @@ categories:
 
 author:
     name: Jim and Moni Webb
-    bio: Director of Laymen Ministries Philippines, Inc
+    bio: Director of Laymen Ministries Philippines, Inc. and Katutubo Excel Schools, Inc.
     image: jim.jpg
 ---
 
