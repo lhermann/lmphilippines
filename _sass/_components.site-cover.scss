@@ -21,8 +21,9 @@
         font-size: 160%;
     }
 
-    &:after {
+    &::after {
         @include clothoid-gradient(#000, .55, 0);
+
         position: absolute;
         top: 0;
         left: 0;

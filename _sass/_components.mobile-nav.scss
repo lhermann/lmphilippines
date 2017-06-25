@@ -14,6 +14,7 @@
     }
 }
 
+
 .c-mobile-nav {
     position: absolute;
     top: 0;
@@ -27,7 +28,6 @@
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-
 
     .is-mobile-nav-open & {
         visibility: visible;
@@ -56,7 +56,6 @@
 $delay-in: 0;
 
 @for $i from 1 through 5 {
-
     .c-mobile-nav li:nth-child(#{$i}) {
         transition: $global-transition #{$delay-in}s; /* [1] */
     }

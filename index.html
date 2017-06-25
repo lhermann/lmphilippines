@@ -17,23 +17,39 @@ layout: base
 
 <section class="o-wrapper">
 
-    <ul class="o-list-bare c-article-list">
+    <h1 class="u-text-center">Articles</h1>
+
+    <ul class="o-list-bare">
         {% for post in paginator.posts %}
             {% unless post.draft %}
-                <li class="c-article-list__item">
+                <li>
                     <article class="c-article">
-                        <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
-                        <header>
-                            <h2 class="c-article__title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+
+                        <a class="c-article__overlay" href="{{ post.url }}"></a>
+
+                        {% if post.cover_image %}
+                            <figure class="c-article__image" style="background-image: url('/images/{{post.cover_image}}')">
+                                <!-- <img src="/images/{{post.cover_image}}" class="avatar"> -->
+                            </figure>
+                        {% endif %}
+
+                        <header class="c-article__header">
+                            <h2 class="c-article__title">
+                                <a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a>
+                            </h2>
                         </header>
+
                         <section class="c-article__body">
                             <p>{{ post.excerpt }}</p>
                         </section>
+
                         <footer class="c-article__meta">
                             Written By <address>{{ post.author.name }}</address> &mdash;
                             <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
                         </footer>
+
                         <hr>
+
                     </article>
                 </li>
             {% endunless %}

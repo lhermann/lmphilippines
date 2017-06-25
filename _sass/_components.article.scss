@@ -3,27 +3,64 @@
    ========================================================================== */
 
 .c-article {
-    margin: 0 $unit-small;
+    position: relative;
 
     @include mq($from: tablet) {
         margin: 0 $unit-large;
     }
 }
 
-    .c-article__header {
+    .c-article__overlay {
+        position: absolute;
+        top: 0;
+        right: -$unit-huge;
+        bottom: $unit-large;
+        left: -$unit-huge;
+        z-index: 1;
+    }
+
+    .c-article__image {
+        position: relative;
+        transition: $global-transition background-color;
+        z-index: -1;
+        background-color: $c-gray-3;
+        background-size: cover;
+        padding-top: 50%;
+        background-blend-mode: multiply;
+
+        @include mq($from: tablet) {
+            margin-bottom: -$unit-large;
+
+            &:after {
+                content: "";
+            }
+        }
+
+        .c-article__overlay:hover ~ & {
+            background-color: $c-white;
+        }
 
         &:after {
             display: block;
-            margin: 1em 0;
-            background-color: $c-border;
-            width: 1.5em;
-            height: .2em;
-            content: " ";
+            position: absolute;
+            bottom: -1px;
+            left: 50%;
+            margin-left: -#{($inuit-wrapper-width/2) - $unit};
+            border-radius: $global-radius $global-radius 0 0;
+            background-color: $c-white;
+            width: 100%;
+            max-width: #{$inuit-wrapper-width - $unit-large};
+            height: $unit * 3;
+        }
+    }
+
+    .c-article__header {
+        .c-article__overlay:hover ~ & a {
+            color: $c-brand-secondary;
         }
     }
 
         .c-article__title {
-            line-height: 1;
             margin-bottom: 0;
         }
 
@@ -35,10 +72,10 @@
         }
 
         .c-article__meta {
+            margin-bottom: $unit-small;
             text-transform: uppercase;
             color: $c-textmuted;
             font-size: 80%;
-            margin-bottom: $unit-small;
 
             > * {
                 display: inline-block;
@@ -46,8 +83,8 @@
             }
 
             a {
-                color: $c-textmuted;
                 border-bottom: 1px dotted $c-textmuted;
+                color: $c-textmuted;
 
                 &:hover {
                     color: $c-text;

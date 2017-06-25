@@ -82,19 +82,13 @@ $inuit-global-line-height:  27px;
 @import "settings.config";
 @import "../node_modules/inuitcss/settings/settings.core";
 @import "settings.global";
+@import "settings.colors";
 
 /* Bodytext font */
 $font-body: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 /* Font for headings */
 $font-headings: 'Crimson Text', 'Times', serif;
-
-/* Text colors */
-$c-text:        #21272d;
-$c-textmuted:   #848484;
-$c-accent:      #2077b2;
-$c-background:  #f5f5f5;
-$c-border:      #eee;
 
 /* Spacing Units */
 $unit:          $inuit-global-spacing-unit;
@@ -127,16 +121,19 @@ $unit-huge:     $inuit-global-spacing-unit-huge;
 
 // ELEMENTS
 @import "../node_modules/inuitcss/elements/elements.page";
-@import "../node_modules/inuitcss/elements/elements.headings";
+@import "elements.headings";
 @import "../node_modules/inuitcss/elements/elements.images";
 @import "../node_modules/inuitcss/elements/elements.tables";
 
 html {
+    text-rendering: optimizelegibility;
     color: $c-text;
     font-family: $font-body;
     -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-    box-sizing: border-box;
+
+    @include mq($until: tablet) {
+        font-size: 1em;
+    }
 }
 
 h1,
@@ -162,31 +159,36 @@ hr {
 }
 
 blockquote {
-    padding: $unit-tiny $unit;
     border-left: 5px solid $c-border;
+    padding: $unit-tiny $unit;
 
     p {
+        margin-bottom: 0;
         color: $c-textmuted;
         font-style: italic;
-        margin-bottom: 0;
     }
 }
 
 figure {
 
-    margin-right: -$unit-huge;
-    margin-left: -$unit-huge;
+    margin-right: -$unit;
+    margin-left: -$unit;
     text-align: center;
+
+    @include mq($from: tablet) {
+        margin-right: -$unit-huge;
+        margin-left: -$unit-huge;
+        border-radius: $global-radius;
+
+        img {
+            border-radius: $global-radius;
+        }
+    }
 
     figcaption {
         margin-top: $unit-tiny;
         color: $c-textmuted;
         font-size: 85%;
-    }
-
-    img {
-        border-radius: $global-radius;
-        // box-shadow: $global-shadow;
     }
 }
 
@@ -209,13 +211,6 @@ $inuit-wrapper-width: 820px;
 @import "../node_modules/inuitcss/objects/objects.tables";
 @import "../node_modules/inuitcss/objects/objects.pack";
 
-.c-article {
-    .o-pack--tiny {
-        margin-right: -$unit-tiny;
-        margin-left: -$unit-tiny;
-    }
-}
-
 
 
 // COMPONENTS
@@ -226,7 +221,6 @@ $inuit-wrapper-width: 820px;
 @import "components.site-footer";
 @import "components.nav-list";
 @import "components.mobile-nav";
-@import "components.article-list";
 @import "components.article";
 @import "components.buttons";
 
@@ -247,6 +241,9 @@ $inuit-offsets: true;
 @import "utilities.hide";
 @import "utilities.fonts";
 
+.u-text-center {
+    text-align: center;
+}
 
 .u-muted {
     color: $c-textmuted;

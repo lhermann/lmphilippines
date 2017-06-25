@@ -1,0 +1,70 @@
+///* ========================================================================
+//   #COLORS
+//   ======================================================================== */
+
+// Brand Colors
+
+$c-brand-primary:               #2077b2;
+$c-brand-primary-lighter:       lighten($c-brand-primary, 10%);
+$c-brand-primary-darker:        darken($c-brand-primary, 10%);
+
+$c-brand-secondary:             #a63446;
+$c-brand-secondary-lighter:     lighten($c-brand-secondary, 10%);
+$c-brand-secondary-darker:      darken($c-brand-secondary, 10%);
+
+$c-brand-dark:                  #333;
+
+$c-brand-light:                 #eee;
+
+$c-green:       #39b54a;
+$c-red:         #ed1c24;
+
+
+$c-white:       #fff;
+$c-gray-1:      #f8f8f8;
+$c-gray-2:      #f0f0f0;
+$c-gray-3:      #e8e8e8;
+$c-gray-4:      #b6b6b6;
+$c-gray-5:    #8e8e8e;
+$c-gray-6:      #666;
+$c-gray-7:      #4d4d4d;
+$c-gray-8:      #333;
+$c-gray-9:      #262626;
+$c-black:       #000;
+
+
+/**
+ * Semantics
+ */
+// Semantic color variables are daisy-chained onto their literal names.
+
+/* Text colors */
+$c-text:                        #21272d;
+$c-textalt:                     $c-gray-5;
+$c-textmuted:                   #848484;
+$c-accent:                      $c-brand-primary;
+$c-background:                  #f5f5f5;
+$c-border:                      #eee;
+
+$c-link:                        $c-brand-primary;
+$c-link-hover:                  $c-brand-primary-darker;
+
+$c-primary-btn-text:            $c-white;
+$c-primary-btn:                 $c-brand-primary;
+$c-primary-btn-hover:           $c-brand-primary-darker;
+
+$c-secondary-btn-text:          $c-white;
+$c-secondary-btn:               $c-gray-6;
+$c-secondary-btn-hover:         $c-gray-7;
+
+$c-tertiary-btn-text:           $c-white;
+$c-tertiary-btn:                rgba($c-black, .5);
+$c-tertiary-btn-hover:          rgba($c-black, .6);
+
+
+
+
+
+
+
+

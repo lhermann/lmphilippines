@@ -6,7 +6,10 @@
   "dependencies": {
     "inuitcss": "^6.0.0-beta.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "stylelint": "@^7.10.1",
+    "stylelint-config-standard": "^16.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +22,22 @@
   "bugs": {
     "url": "https://github.com/lhermann/lmphilippines/issues"
   },
-  "homepage": "https://github.com/lhermann/lmphilippines#readme"
+  "homepage": "https://github.com/lhermann/lmphilippines#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 10"
+  ],
+  "stylelint": {
+    "extends": "/usr/local/lib/node_modules/stylelint-config-standard",
+    "plugins": [
+      "/usr/local/lib/node_modules/stylelint-no-unsupported-browser-features"
+    ],
+    "rules": {
+      "plugin/no-unsupported-browser-features": [true, { "severity": "warning" }],
+      "indentation": null,
+      "max-empty-lines": 2,
+      "number-leading-zero": null
+    }
+  }
 }
