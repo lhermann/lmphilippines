@@ -91,9 +91,9 @@ $font-body: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-headings: 'Crimson Text', 'Times', serif;
 
 /* Spacing Units */
-$unit:          $inuit-global-spacing-unit;
 $unit-tiny:     $inuit-global-spacing-unit-tiny;
 $unit-small:    $inuit-global-spacing-unit-small;
+$unit:          $inuit-global-spacing-unit;
 $unit-large:    $inuit-global-spacing-unit-large;
 $unit-huge:     $inuit-global-spacing-unit-huge;
 
@@ -202,6 +202,7 @@ figure {
 //
 // Uncomment and add to this section as necessary.
 $inuit-wrapper-width: 820px;
+$inuit-list-inline-delimiter: ",\00A0";
 @import "../node_modules/inuitcss/objects/objects.wrapper";
 @import "../node_modules/inuitcss/objects/objects.layout";
 @import "../node_modules/inuitcss/objects/objects.media";
@@ -251,6 +252,10 @@ $inuit-offsets: true;
 
 .u-muted {
     color: $c-textmuted;
+}
+
+.u-lead {
+    font-size: 120%;
 }
 
 .u-zoomable {

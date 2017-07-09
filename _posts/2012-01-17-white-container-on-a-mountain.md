@@ -6,10 +6,7 @@ date: 2012-01-17T14:16:56+00:00
 cover_image: 2012/01/white-container-cover.jpg
 
 categories:
-  - Headquarters
-  - High school
-
-excerpt: "Adjustment! Changes! Who said it would be easy? A new husband and wife with their many differences learning to agree and work together. A new school year starting with new students, schedules, and guidelines to follow ..."
+  - High School
 
 author:
     name: Jim and Moni Webb

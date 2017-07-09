@@ -5,11 +5,8 @@ title: Not all miracles are instant
 subtitle: When we compare our students today with those just 15 years ago ...
 cover_image: 2017/05/not-all-miracles-are-instant-cover.jpg
 
-excerpt: "Laymen Ministries Philippines has now exceeded 15 years of service in the Philippines and has reached a major milestone ..."
-
 categories:
-    - High school
-    - History
+    - High School
 
 author:
     name: Jim Webb

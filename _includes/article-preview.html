@@ -1,0 +1,56 @@
+<article class="c-article">
+
+    {% if post.categories %}
+        <div class="c-article__categories">
+            <ul class="o-list-inline o-list-inline--delimited u-margin-bottom-none">
+                {% for c in post.categories %}
+                    <li class="o-list-inline__item">
+                        <small>
+                            <a class="c-article__categories__link" href="/category/{{ c | slugify }}">{{ c }}</a>
+                        </small>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    <a class="c-article__overlay" href="{{ post.url }}"></a>
+
+    <figure class="c-article__image" style="background-image: url(
+        {% if post.cover_image %}
+            '/images/{{post.cover_image}}'
+        {% else %}
+            {% if post.categories contains "Pinagbayanan" %} '/assets/img/pinagbayanan-3by1.jpg'
+            {% elsif post.categories contains "Binuangan" %} '/assets/img/binuangan-3by1.jpg'
+            {% elsif post.categories contains "Agbalite" %} '/assets/img/agbalite-3by1.jpg'
+            {% elsif post.categories contains "Sulong-Ipil" %} '/assets/img/sulung-ipil-3by1.jpg'
+            {% elsif post.categories contains "High School" %} '/assets/img/high-school-3by1.jpg'
+            {% elsif post.categories contains "Prison Ministry" %} '/assets/img/prison-ministry-3by1.jpg'
+            {% else %} '/assets/img/placeholder-3by1.jpg'
+            {% endif %}
+        {% endif %}
+    )">
+    </figure>
+
+    <header class="c-article__header">
+        <h2 class="c-article__title">
+            <a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a>
+        </h2>
+    </header>
+
+    <section class="c-article__body u-margin-bottom">
+        {% if post.content contains "<!-- more -->" %}
+            {{ post.content | split:"<!-- more -->" | first % | append: " ..." }}
+        {% else %}
+            {{ post.content | strip_html | truncatewords:100 }}
+        {% endif %}
+    </section>
+
+    <footer class="c-article__meta">
+        Written By <address>{{ post.author.name }}</address> &mdash;
+        <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    </footer>
+
+    <hr>
+
+</article>

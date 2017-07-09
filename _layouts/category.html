@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<header class="c-site-cover c-site-cover--compact"
+    style="background-image:url({{ site.inc.cover_image }});">
+
+</header>
+
+<section class="o-wrapper">
+
+        <header class="c-article__header u-text-center">
+            <h1 class="c-article__title">Category: {{ page.category }}</h1>
+            <h3 class="c-site-cover__subtitle">All articles in this category</h3>
+            <hr/>
+        </header>
+
+        {% for post in site.categories[page.category] %}
+
+            {% include article-preview.html %}
+
+        {% endfor %}
+
+</section>

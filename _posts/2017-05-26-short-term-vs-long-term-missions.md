@@ -5,10 +5,8 @@ title: Comparison of Short Term vs. Long Term Missions
 subtitle: Shortcut or detour?
 cover_image: 2017/05/short-term-vs-long-term-cover.jpg
 
-excerpt: "Since becoming Christians in 1983, my wife Moni and I have supported missionary outreach. In 1998 Jeff Reich, the director of Laymen Ministries, knew that we had sold our business and invited us to visit the Philippines and install some structure into the newly begun outreach here. We came, we saw, and we were captured by the desperate needs we encountered ..."
-
 categories:
-  - High school
+  - High School
 
 author:
     name: Jim Webb

@@ -5,10 +5,10 @@ title: FIRST – Prove It to Me!
 subtitle:
 cover_image: 2017/06/first-prove-it-cover.jpg
 
-excerpt: "19 years ago, we built the first school in a native village on the island of Mindoro, Philippines. Prior to this, the natives were denied an education. Even worse, they were programed by the majority population of Tagalog and Visayan, who had moved into the native’s areas, that they were dumb and therefore school was a waste of time for them ..."
-
 categories:
- - High school
+ - High School
+ - Pinagbayanan
+ - Agbalite
 
 author:
     name: Jim Webb

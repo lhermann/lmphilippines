@@ -22,6 +22,17 @@ layout: base
                     title="{{ page.date | date: "%B %d, %Y" }}">
                     {{ page.date | date: "%B %d, %Y" }}
                 </time>
+                &mdash;
+                Categories:
+                <ul class="o-list-inline o-list-inline--delimited">
+                    {% for c in page.categories %}
+                        <li class="o-list-inline__item">
+                            <small>
+                                <a class="" href="/category/{{ c | slugify }}">{{ c }}</a>
+                            </small>
+                        </li>
+                    {% endfor %}
+                </ul>
             </div>
             <h1 class="c-article__title">{{ page.title }}</h1>
             {% if page.subtitle %}

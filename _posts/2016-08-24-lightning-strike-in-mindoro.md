@@ -5,10 +5,8 @@ title: Lightning strike in Mindoro
 subtitle: Our challenges are many, but our God is GREAT!
 cover_image: 2017/05/lightning-strike-cover.jpg
 
-excerpt: "Here on the beautiful tropical island of Occidental Mindoro, Philippines, the weather is either mild, with plenty of sunshine, a gentle breeze and constant temperatures of 78 to 90 degrees day and night, or extreme conditions, with hurricane force winds and torrential rains."
-
 categories:
-  - High school
+  - High School
 
 author:
     name: Jim and Moni Webb

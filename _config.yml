@@ -48,6 +48,22 @@ plugins_dir: ./_plugins
 layouts_dir: ./_layouts
 timezone:    nil
 
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+# categories:
+#   high-school: "High School"
+#   pinagbayanan: "Pinagbayanan"
+
 # Image directories
 article_img_dir: /images/articles
 wp_img_dir:      /images/wp-uploads

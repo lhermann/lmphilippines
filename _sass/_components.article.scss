@@ -10,6 +10,43 @@
     }
 }
 
+    .c-article__categories {
+        position: absolute;
+        top: $unit;
+        left: -#{ $unit + $unit-tiny };
+        z-index: 3;
+        border-radius: $global-radius;
+        box-shadow: $global-shadow;
+        background-color: $c-accent;
+        padding: .2em $unit-small .3em;
+        line-height: 1;
+        color: $c-white;
+
+        @include mq($from: tablet) {
+            left: -#{ $unit-huge + $unit-tiny };
+        }
+    }
+
+    .c-article__category {
+        border-radius: $global-radius;
+        background-color: $c-accent;
+        padding: .2em $unit-small .3em;
+        line-height: 1;
+        color: $c-white;
+    }
+
+        .c-article__categories__link {
+            transition: border-color $global-transition;
+            border-bottom: 1px dotted rgba($c-white, .3);
+            color: $c-white;
+
+            &:focus,
+            &:hover {
+                border-color: rgba($c-white, 1);
+                color: $c-white;
+            }
+        }
+
     .c-article__overlay {
         position: absolute;
         top: 0;
@@ -23,6 +60,7 @@
         position: relative;
         transition: $global-transition background-color;
         z-index: -1;
+        // border-radius: $global-radius $global-radius 0 0;
         background-color: $c-gray-3;
         background-size: cover;
         padding-top: 50%;
@@ -44,14 +82,26 @@
             display: block;
             position: absolute;
             bottom: -1px;
-            left: 50%;
-            margin-left: -#{($inuit-wrapper-width/2) - $unit};
+            left: $unit-large;
+            right: $unit-large;
+            // left: 50%;
+            // margin-left: -#{($inuit-wrapper-width/2) - $unit};
             border-radius: $global-radius $global-radius 0 0;
             background-color: $c-white;
-            width: 100%;
-            max-width: #{$inuit-wrapper-width - $unit-large};
+            // width: 100%;
+            // max-width: #{$inuit-wrapper-width - $unit-large};
             height: $unit * 3;
         }
+
+        // &:after {
+        //     display: block;
+        //     position: absolute;
+        //     bottom: -1px;
+        //     width: 100%;
+        //     height: 50%;
+        //     // @include clothoid-gradient($c-white, 1, 0, to top);
+        //     background-image: linear-gradient(to top, $c-white, rgba($c-white, .5) 50%, 65%, rgba($c-white, 0));
+        // }
     }
 
     .c-article__header {

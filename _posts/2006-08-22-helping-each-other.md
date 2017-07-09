@@ -1,15 +1,11 @@
 ---
 layout: post
 
-id: 372
 title: Helping each other
 date: 2006-08-22T18:11:12+00:00
 
 categories:
   - Pinagbayanan
-  - Villages
-
-excerpt: "There was an old man around 70 years old. He loves his family and has five children. Last year, this old man and his family lived in a very small house ..."
 
 author:
     name: Bonifacio Jose
