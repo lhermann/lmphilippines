@@ -217,7 +217,6 @@ $inuit-list-inline-delimiter: ",\00A0";
 @import "../node_modules/inuitcss/objects/objects.pack";
 
 
-
 // COMPONENTS
 //
 // Build and include your project’s UI Compoments here.
@@ -258,6 +257,10 @@ $inuit-offsets: true;
     font-size: 120%;
 }
 
+.u-thin {
+    font-weight: 400;
+}
+
 .u-zoomable {
     transition: transform $global-transition ease, box-shadow $global-transition ease;
     box-shadow: 0 0 #000;
@@ -268,4 +271,8 @@ $inuit-offsets: true;
         box-shadow: $global-shadow;
         cursor: zoom-out;
     }
+}
+
+.u-float-right {
+    float: right;
 }

@@ -1,8 +1,12 @@
+# http://www.lmn.org/philippines/wordpress/?page_id=1086
+# http://www.lmn.org/philippines/galery_2/main.php
+
+
 inc:
   # Blog Information
   title:        "Laymen Ministries Philippines"
   subtitle:     "God's work among the natives in Mindoro"
-  cover_image:  /assets/img/site-cover.jpg
+  cover-image:  /assets/img/cover/kaupawan.jpg
   logo:         /assets/img/lmp-logo.svg
 
   # Company information

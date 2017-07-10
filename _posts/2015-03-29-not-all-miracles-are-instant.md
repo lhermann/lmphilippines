@@ -3,7 +3,7 @@ layout: post
 
 title: Not all miracles are instant
 subtitle: When we compare our students today with those just 15 years ago ...
-cover_image: 2017/05/not-all-miracles-are-instant-cover.jpg
+cover-image: 2017/05/not-all-miracles-are-instant-cover.jpg
 
 categories:
     - High School

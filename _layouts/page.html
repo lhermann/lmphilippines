@@ -2,21 +2,16 @@
 layout: base
 ---
 
-<header class="c-site-cover"
-    style="background-image:url({{ site.inc.cover_image }});">
-
-    <div class="c-site-cover__inner">
-        <div class="o-wrapper">
-            <h1 class="c-site-cover__title">{{ site.inc.title }}</h1>
-            {% if site.inc.subtitle %}
-                <h3 class="c-site-cover__subtitle">{{ site.inc.subtitle }}</h3>
-            {% endif %}
-        </div>
-    </div>
-
+<header class="c-site-cover c-site-cover--compact" style="background-image:url(
+    {% if page.cover-image %}
+        {{ page.cover-image }}
+    {% else %}
+        {{ site.inc.cover-image }}
+    {% endif %}
+    );">
 </header>
 
-<section class="o-wrapper">
+<section class="o-wrapper o-wrapper--large">
 
     <article class="c-article">
 

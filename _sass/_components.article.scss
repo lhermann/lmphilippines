@@ -5,9 +5,9 @@
 .c-article {
     position: relative;
 
-    @include mq($from: tablet) {
-        margin: 0 $unit-large;
-    }
+    // @include mq($from: tablet) {
+    //     margin: 0 $unit-large;
+    // }
 }
 
     .c-article__categories {

@@ -1,0 +1,18 @@
+---
+layout: base
+---
+
+<header class="c-site-cover u-margin-none" style="background-image:url({{ site.inc.cover-image }});">
+
+    <div class="c-site-cover__inner u-text-center">
+        <div class="o-wrapper">
+            <h1 class="c-site-cover__title">{{ site.inc.title }}</h1>
+            {% if site.inc.subtitle %}
+                <h3 class="c-site-cover__subtitle">{{ site.inc.subtitle }}</h3>
+            {% endif %}
+        </div>
+    </div>
+
+</header>
+
+{{ content }}

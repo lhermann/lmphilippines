@@ -3,7 +3,7 @@ layout: post
 id: 1167
 title: White Container on a Mountain
 date: 2012-01-17T14:16:56+00:00
-cover_image: 2012/01/white-container-cover.jpg
+cover-image: 2012/01/white-container-cover.jpg
 
 categories:
   - High School

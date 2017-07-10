@@ -3,7 +3,7 @@ layout: post
 
 title: Great Touch of Influence
 date: 2010-06-22T02:20:02+00:00
-cover_image: 2010/06/great-touch-of-influence-cover.jpg
+cover-image: 2010/06/great-touch-of-influence-cover.jpg
 
 categories:
     - Sulong-Ipil

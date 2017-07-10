@@ -3,7 +3,7 @@ layout: post
 
 title: Comparison of Short Term vs. Long Term Missions
 subtitle: Shortcut or detour?
-cover_image: 2017/05/short-term-vs-long-term-cover.jpg
+cover-image: 2017/05/short-term-vs-long-term-cover.jpg
 
 categories:
   - High School

@@ -4,7 +4,7 @@ draft: true
 
 title: Jekyll Incorporated Features
 subtitle: "What's in the box"
-cover_image: blog-cover.jpg
+cover-image: blog-cover.jpg
 
 excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
 
@@ -27,7 +27,7 @@ title: Jekyll Incorporated Features
 subtitle: "What's in the box"
 
 # Setup post cover image in /images/
-cover_image: blog-cover.jpg
+cover-image: blog-cover.jpg
 
 excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
 
@@ -66,7 +66,7 @@ inc:
     # Blog Information
     title:        "Jekyll Incorporated"
     subtitle:     "Modern Jekyll based blog for companies"
-    cover_image:  blog-cover.jpg
+    cover-image:  blog-cover.jpg
 
     # Company information
     company:      Incorporated

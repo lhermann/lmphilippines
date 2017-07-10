@@ -3,7 +3,7 @@ layout: post
 
 title: First Fruit - First Graduate
 subtitle: 18 years ago we had a dream...
-cover_image: 2017/04/firstfruits-cover.jpg
+cover-image: 2017/04/firstfruits-cover.jpg
 
 categories:
   - High School

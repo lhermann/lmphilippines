@@ -3,7 +3,7 @@ layout: post
 
 title: FIRST – Prove It to Me!
 subtitle:
-cover_image: 2017/06/first-prove-it-cover.jpg
+cover-image: 2017/06/first-prove-it-cover.jpg
 
 categories:
  - High School

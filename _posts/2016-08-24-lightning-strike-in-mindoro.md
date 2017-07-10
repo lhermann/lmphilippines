@@ -3,7 +3,7 @@ layout: post
 
 title: Lightning strike in Mindoro
 subtitle: Our challenges are many, but our God is GREAT!
-cover_image: 2017/05/lightning-strike-cover.jpg
+cover-image: 2017/05/lightning-strike-cover.jpg
 
 categories:
   - High School
