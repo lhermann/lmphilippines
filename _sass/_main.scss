@@ -271,6 +271,10 @@ $inuit-offsets: true;
         box-shadow: $global-shadow;
         cursor: zoom-out;
     }
+
+    &--2x.zoom {
+        transform: scale(2);
+    }
 }
 
 .u-float-right {

@@ -18,7 +18,7 @@ We currently have openings for various positions in our Ministry overseas. We ar
 ## Elementary School Teacher / Missionary
 
 <figure class="u-1/2 u-float-right u-margin-left">
-    <img class="u-zoomable" alt="Christy with Students" src="{{site.img_dir}}/2017/07/christys-students-800.jpg">
+    <img class="u-zoomable u-zoomable--2x" alt="Christy with Students" src="{{site.img_dir}}/2017/07/christys-students-800.jpg">
 </figure>
 
 **Description:** Teach in one of our three jungle elementary schools. No previous teaching experience is required but is highly encouraged. All subjects except Filipino are taught in English, so you must be able to speak English proficiently. You will not just be a teacher, you are also friend, counselor, health-care worker, pastor, and most importantly, an ambassador for Christ. Remember you are on location and on call 24/7. Each school has several teachers so you will not be alone.
@@ -32,7 +32,7 @@ We currently have openings for various positions in our Ministry overseas. We ar
 ## High School Teacher / Boys or Girls Dean / Missionary
 
 <figure class="u-1/2 u-float-right u-margin-left">
-    <img class="u-zoomable" alt="Students visit Manila" src="{{site.img_dir}}/2017/07/students-visit-manila-800.jpg">
+    <img class="u-zoomable u-zoomable--2x" alt="Students visit Manila" src="{{site.img_dir}}/2017/07/students-visit-manila-800.jpg">
 </figure>
 
 **Description:** Teach in our new mission headquarters while the new high school is being constructed. We have about 5 students for next year. We plan on doing a remedial year to work them up to high school level. English is the major weakness, so we need someone who is a teacher and speaks English fluently. These kids come from a very communal environment. One of the major challenges we will be facing this coming year is home sickness. Your job is not only to be their teacher but also to be their mentor. Keep them motivated, encouraged, and busy learning.
