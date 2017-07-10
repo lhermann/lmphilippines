@@ -17,8 +17,8 @@
     <a class="c-article__overlay" href="{{ post.url }}"></a>
 
     <figure class="c-article__image" style="background-image: url(
-        {% if post.cover_image %}
-            '/images/{{post.cover_image}}'
+        {% if post.cover-image %}
+            '/images/{{post.cover-image}}'
         {% else %}
             {% if post.categories contains "Pinagbayanan" %} '/assets/img/pinagbayanan-3by1.jpg'
             {% elsif post.categories contains "Binuangan" %} '/assets/img/binuangan-3by1.jpg'
