@@ -17,7 +17,7 @@ It was June 3, 2001 when my family settled in our new village, Sulong Ipil.
 
 Located in the outskirts of Mamburao, the Katutubo living in their village are different in many ways from the two other villages where we served before.
 
-<figure>
+<figure class="c-figure">
     <img alt="Picture of Mae and Boying Celestre" src="{{site.img_dir}}/2011/07/Picture_Mae_Boying.jpg">
     <figcaption>Mae Celestre and her housband Boying - Missionaries for LMP in Sulong Ipil</figcaption>
 </figure>
@@ -30,11 +30,11 @@ There are at least three Christian denominations of different churches that exis
 
 It was June 18, 2011 when 17 children, students and non-students came to school (at least 30 minutes earlier than the time I told them to come) to listen to Bible stories and learn new songs. This was our first Sabbath worship with the children. They enjoyed the stories and songs and stayed with us for more than two hours. The next Saturday, June 25, 2011, children came again to have Sabbath worship with us. I am so glad that God made a way for us to serve Him and worship Him. Truly, the kingdom of God is for the children!
 
-<figure>
+<figure class="c-figure">
     <div class="o-pack o-pack--tiny">
-        <span class="o-pack__item"><img class="u-zoomable" alt="Village of Sulong-Ipil" src="{{site.img_dir}}/2011/07/Sulong-Ipil_Village-300x225.jpg" /></span>
-        <span class="o-pack__item"><img class="u-zoomable" alt="Children of Sulong-Ipil" src="{{site.img_dir}}/2011/07/Sulong-Ipil_Children-300x225.jpg" /></span>
-        <span class="o-pack__item"><img class="u-zoomable" alt="School of Sulong-Ipil" src="{{site.img_dir}}/2011/07/Sulong-Ipil_School-300x225.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--2x u-zoom--left" alt="Village of Sulong-Ipil" src="{{site.img_dir}}/2011/07/Sulong-Ipil_Village-300x225.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--2x" alt="Children of Sulong-Ipil" src="{{site.img_dir}}/2011/07/Sulong-Ipil_Children-300x225.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--2x u-zoom--right" alt="School of Sulong-Ipil" src="{{site.img_dir}}/2011/07/Sulong-Ipil_School-300x225.jpg" /></span>
     </div>
     <figcaption>Village and Shool of Sulong-Ipil</figcaption>
 </figure>

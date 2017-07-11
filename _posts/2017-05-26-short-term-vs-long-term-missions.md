@@ -38,7 +38,7 @@ Being missionaries to a tribe who are 100% illiterate and animistic, the day-to-
 
 In reference to ministering to their spiritual needs, our missionary teachers actively teach Christian principles in school. They also hold mid-week services in the school, or they go into the villages and meet in the native’s houses. Friday evening’s Vesper programs are held and Sabbaths are full of Sabbath Schools and Divine Worship activities. Two of our villages have separate church buildings, while in the other two villages we meet in the school. Most village teachers conduct adult literacy classes to bond with the parents of our school children. This has resulted in several villagers attending church and requesting Bible studies. Frequent contact is a sure way to make friends and gain their trust. Once trust is established, they will come to the mission house to sell produce, ask for help, or to visit.
 
-<figure>
+<figure class="c-figure">
     <img alt="Path to a Mangjan village" src="{{site.img_dir}}/2017/05/mangjan-path.jpg">
     <figcaption>Winding path to a Mangjan village</figcaption>
 </figure>
@@ -49,7 +49,7 @@ Our great commission is to “go and teach!” We take the gospel mission very s
 
 The first missionaries to our tribes came right after WWII from Switzerland. They were from OMF International (Overseas Missionary Fellowship) – the modern continuation of Hudson Taylor’s China Inland Mission. These sweet missionaries did truly ground breaking work. They even translated the New Testament into the native dialects. The only problem, the natives are illiterate and can not make use of their Bible. The native leaders can only share what they were told, but they can not show or prove their beliefs from the Bible. Over the years, many have left their “Mangyan Tribal Church Association.”
 
-<figure>
+<figure class="c-figure">
     <img alt="Mangjan House" src="{{site.img_dir}}/2017/05/mangjan-house.jpg">
     <figcaption>Typical house in a Mangjan village</figcaption>
 </figure>
@@ -60,10 +60,10 @@ The first missionaries to our tribes came right after WWII from Switzerland. The
 
 Last Sabbath, our high school students, who are working during this school vacation on the high school campus, a few teachers and I hiked into the mountains to visit this village. As we approached the village, we could hear singing. As we got closer to the church we recognized children’s voices and found about 6 young children being led by an 11 year old girl, who had memorized many Christian songs. Word must have spread rapidly through the village that strangers had arrived, because soon the church was full. After 30 more minutes of singing, a young man stood to speak. He was trying to read from a very thick, coverless book. He was trying to read in Tagalog, but his reading skills were grade 1 at best. After reading in Tagalog, he would attempt to explain in the native language of the tribe. With me were both native Tagalog and members of this tribe. None of our members understood what he read or where it came from, and I am sure that the villagers didn’t either. After the service, I asked to see his book. I was shocked to find out that he was reading from 1st Maccabees. He did not know that he was trying to read and teach from the Apocrypha, a group of 14 books not considered canonical, but included in Roman Catholic Bibles.
 
-<figure>
+<figure class="c-figure">
     <div class="o-pack o-pack--tiny">
-        <span class="o-pack__item"><img class="u-zoomable" alt="Church service held by students" src="{{site.img_dir}}/2017/05/mangjan-church-2.jpg" /></span>
-        <span class="o-pack__item"><img class="u-zoomable" alt="Villagers sitting in church" src="{{site.img_dir}}/2017/05/mangjan-church-1.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--2x u-zoom--left" alt="Church service held by students" src="{{site.img_dir}}/2017/05/mangjan-church-2.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--2x u-zoom--right" alt="Villagers sitting in church" src="{{site.img_dir}}/2017/05/mangjan-church-1.jpg" /></span>
     </div>
     <figcaption>Church service held by students in a Mangjan village</figcaption>
 </figure>

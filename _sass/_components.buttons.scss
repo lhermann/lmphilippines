@@ -54,19 +54,20 @@
 }
 
 .c-btn--secondary {
-  background-color: #2f4054;
+  background-color: $c-gray-3;
 
   &,
   &:hover,
   &:active,
   &:focus {
     text-decoration: none;
-    color: #fff;
+    color: $c-text;
   }
 
   &:hover,
   &:focus {
-    background-color: #1d2733;
+    background-color: $c-gray-6;
+    color: $c-white;
   }
 
 }

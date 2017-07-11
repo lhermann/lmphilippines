@@ -1,7 +1,3 @@
-$(".u-zoomable").on("click", function() {
-    hasClass = $(this).hasClass("zoom");
-    $(".zoom").removeClass("zoom");
-    if( !hasClass ) {
-        $(this).addClass("zoom");
-    }
+$(".u-zoom").on("click", function() {
+    $(this).toggleClass("is-zoomed");
 });

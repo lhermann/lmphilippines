@@ -22,6 +22,6 @@ There was a wedding ceremony in our neighboring village. One of my students went
 
 I am fully convinced that God is working with my students. I pray that not only this student with listen to the seeds, but the others too. Therefore, I can say that when you plant good seeds, God will take care. So, plant now!
 
-<figure>
+<figure class="c-figure">
     <img alt="pig beside cocnut tree" src="{{site.img_dir}}/2010/01/DSCF4296crop-1023x861.jpg">
 </figure>

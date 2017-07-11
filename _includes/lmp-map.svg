@@ -156,12 +156,12 @@
             <path fill="#FFFFFF" d="M52.348,47.438l16.256,16.257l-4.908,4.908L47.438,52.346v-2.607l-0.92-0.92 c-3.887,3.374-8.488,5.061-13.803,5.061c-5.932,0-10.966-2.044-15.107-6.135c-4.141-4.088-6.211-9.1-6.211-15.031 c0-5.929,2.07-10.966,6.211-15.108c4.142-4.14,9.177-6.211,15.107-6.211c5.93,0,10.939,2.071,15.031,6.211 c4.088,4.142,6.135,9.179,6.135,15.108c0,5.318-1.688,9.919-5.062,13.805l0.92,0.919L52.348,47.438L52.348,47.438z M22.286,43.145 c2.86,2.863,6.338,4.294,10.429,4.294c4.088,0,7.564-1.431,10.43-4.294c2.861-2.861,4.293-6.339,4.293-10.43 c0-4.088-1.433-7.565-4.293-10.43c-2.865-2.86-6.34-4.294-10.43-4.294c-4.091,0-7.568,1.434-10.429,4.294 c-2.864,2.865-4.294,6.341-4.294,10.43C17.992,36.806,19.422,40.283,22.286,43.145z M24.434,31.027h16.41v3.221h-16.41V31.027z"/>
         </g>
         <g transform="translate(401 0)">
-            <image id="svgPinImg" class="is-hidden" xlink:href="/assets/img/pinagbayanan-satelite-600.jpg" width="800" height="600"/>
+            <image id="svgPinImg" class="is-hidden" xlink:href="/assets/img/pinagbayanan-arial-600.jpg" width="800" height="600"/>
             <image id="svgAgbImg" class="is-hidden" xlink:href="/assets/img/agbalite-satelite-600.jpg" width="800" height="600"/>
             <image id="svgBinImg" class="is-hidden" xlink:href="/assets/img/binuangan-600.jpg" width="800" height="600"/>
-            <image id="svgSulImg" class="is-hidden" xlink:href="/assets/img/sulung-ipil-satelite-600.jpg" width="800" height="600"/>
+            <image id="svgSulImg" class="is-hidden" xlink:href="/assets/img/sulung-ipil-600.jpg" width="800" height="600"/>
             <image id="svgKauImg" class="is-hidden" xlink:href="/assets/img/high-school-arial-600.jpg" width="800" height="600"/>
-            <image id="svgPriImg" y="-420" class="is-hidden" xlink:href="/assets/img/prison-ministry-2.jpg" width="800" height="600"/>
+            <image id="svgPriImg" y="-420" class="is-hidden" xlink:href="/assets/img/prison-ministry-600.jpg" width="800" height="600"/>
         </g>
     </g>
 </svg>

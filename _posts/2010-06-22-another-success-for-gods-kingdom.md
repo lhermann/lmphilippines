@@ -14,8 +14,8 @@ author:
     role: teacher
 ---
 
-<figure>
-    <img class="u-zoomable" title="Prison Baptism" alt="batism in prision" src="{{site.img_dir}}/2010/06/DSCF5044-1024x768.jpg">
+<figure class="c-figure c-figure--left">
+    <img class="u-zoom u-zoom--2x u-zoom--left" title="Prison Baptism" alt="batism in prision" src="{{site.img_dir}}/2010/06/DSCF5044-1024x768.jpg">
     <figcaption>One of several being baptized and other joining by profession of faith</figcaption>
 </figure>
 

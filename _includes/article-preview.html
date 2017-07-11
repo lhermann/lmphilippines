@@ -1,22 +1,8 @@
 <article class="c-article">
 
-    {% if post.categories %}
-        <div class="c-article__categories">
-            <ul class="o-list-inline o-list-inline--delimited u-margin-bottom-none">
-                {% for c in post.categories %}
-                    <li class="o-list-inline__item">
-                        <small>
-                            <a class="c-article__categories__link" href="/category/{{ c | slugify }}">{{ c }}</a>
-                        </small>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-    {% endif %}
-
     <a class="c-article__overlay" href="{{ post.url }}"></a>
 
-    <figure class="c-article__image" style="background-image: url(
+    <figure class="c-figure c-figure--wide c-figure--round c-article__image" style="background-image: url(
         {% if post.cover-image %}
             '/images/{{post.cover-image}}'
         {% else %}
@@ -36,6 +22,20 @@
         <h2 class="c-article__title">
             <a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a>
         </h2>
+
+        {% if post.categories %}
+            <div class="c-article__categories">
+                <ul class="o-list-inline o-list-inline--delimited u-margin-bottom-none">
+                    {% for c in post.categories %}
+                        <li class="o-list-inline__item">
+                            <small>
+                                <a class="c-article__categories__link" href="/category/{{ c | slugify }}">{{ c }}</a>
+                            </small>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
     </header>
 
     <section class="c-article__body u-margin-bottom">

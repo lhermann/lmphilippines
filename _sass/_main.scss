@@ -175,22 +175,23 @@ blockquote {
 
 figure {
 
-    margin-right: -$unit;
-    margin-left: -$unit;
+    // margin-right: -$unit;
+    // margin-left: -$unit;
     text-align: center;
 
-    @include mq($from: tablet) {
-        margin-right: -$unit-huge;
-        margin-left: -$unit-huge;
-        border-radius: $global-radius;
+    // @include mq($from: tablet) {
+    //     // margin-right: -$unit-huge;
+    //     // margin-left: -$unit-huge;
+    //     border-radius: $global-radius;
 
-        img {
-            border-radius: $global-radius;
-        }
-    }
+    //     img {
+    //         border-radius: $global-radius;
+    //     }
+    // }
 
     figcaption {
         margin-top: $unit-tiny;
+        padding: 0 $unit;
         color: $c-textmuted;
         font-size: 85%;
     }
@@ -228,7 +229,49 @@ $inuit-list-inline-delimiter: ",\00A0";
 @import "components.article";
 @import "components.buttons";
 
+.c-figure {
+    margin-right: -$unit;
+    margin-left: -$unit;
 
+    @include mq($from: tablet) {
+        margin-right: -$unit-large;
+        margin-left: -$unit-large;
+    }
+
+    &--wide {
+        @include mq($from: tablet) {
+            margin-right: -$unit-huge;
+            margin-left: -$unit-huge;
+        }
+    }
+
+    &--right {
+        float: right;
+
+        @include mq($from: tablet) {
+            margin-left: $unit;
+            width: 50%;
+        }
+    }
+
+    &--left {
+        float: left;
+
+        @include mq($from: tablet) {
+            margin-right: $unit;
+            width: 50%;
+        }
+    }
+
+    &--round {
+        border-radius: $global-radius;
+    }
+
+    > .o-pack {
+        margin-left: -$unit-tiny;
+        width: calc(100% + $unit-small);
+    }
+}
 
 
 
@@ -261,19 +304,31 @@ $inuit-offsets: true;
     font-weight: 400;
 }
 
-.u-zoomable {
+.u-zoom {
     transition: transform $global-transition ease, box-shadow $global-transition ease;
     box-shadow: 0 0 #000;
     cursor: zoom-in;
 
-    &.zoom {
+    &.is-zoomed {
         transform: scale(1.3);
         box-shadow: $global-shadow;
         cursor: zoom-out;
     }
 
-    &--2x.zoom {
+    &--2x.is-zoomed {
         transform: scale(2);
+    }
+
+    &--3x.is-zoomed {
+        transform: scale(3);
+    }
+
+    &--right {
+        transform-origin: center right;
+    }
+
+    &--left {
+        transform-origin: center left;
     }
 }
 

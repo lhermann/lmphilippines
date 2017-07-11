@@ -10,9 +10,9 @@ Welcome to the Laymen Ministries website dedicated to our work in the Philippine
 
 Email us at {% include email.html %} or contact our Philippines Headquarters at:
 
-Laymen Ministries Philippines<br>
-Sea Breeze Subdivision<br>
-Mamburao, Occ. Mindoro 5106<br>
-Tel: 63-908-881-3104<br>
+Laymen Ministries Philippines, Inc.<br>
+Kaupawan, Sulong Ipil, Brgy. Fatima<br>
+Mamburao, Occidental Mindoro, Philippines<br>
+**Tel:** 63-908-881-3104<br>
 
 To read about how Laymen Ministries started, [go here](http://www.lmn.org/aboutus_humblebeginnings.html).

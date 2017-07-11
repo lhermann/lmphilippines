@@ -9,7 +9,11 @@ layout: base
     );">
 </header>
 
-<section class="o-wrapper o-wrapper--large">
+<section class="o-wrapper">
+
+    <div class="u-margin-bottom u-hidden@from-tablet">
+        <a class="c-btn c-btn--small c-btn--secondary" href="/">&lsaquo; Back</a>
+    </div>
 
     <article class="c-article">
 
@@ -28,7 +32,7 @@ layout: base
                     {% for c in page.categories %}
                         <li class="o-list-inline__item">
                             <small>
-                                <a class="" href="/category/{{ c | slugify }}">{{ c }}</a>
+                                <a href="/category/{{ c | slugify }}">{{ c }}</a>
                             </small>
                         </li>
                     {% endfor %}
@@ -69,5 +73,9 @@ layout: base
         {% endif %}
 
     </article>
+
+    <div class="u-margin-bottom u-hidden@from-tablet">
+        <a class="c-btn c-btn--small c-btn--secondary" href="/">&lsaquo; Back</a>
+    </div>
 
 </section>

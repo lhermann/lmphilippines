@@ -26,7 +26,7 @@ The “lowlanders” would say things like, “your children can’t learn. They
 
 Persevering through all the negative “chismis”, gossip, we lost many students to this pressure, but in April 2017 we celebrated the first “Katutubo“ native senior high school graduate in the Philippines. Even before she graduated, the word circulated among the villages that “one of theirs” would graduate from a senior high school. Hope and excitement have continued to spread since her graduation and finally the doors of the minds of the natives have started to open.
 
-<figure>
+<figure class="c-figure">
     <img alt="first Katutubo graudate" src="{{site.img_dir}}/2017/06/first-graduate.jpg">
     <figcaption>Meleth, out first Katutubo graudate</figcaption>
 </figure>
@@ -39,11 +39,11 @@ As Christians, we are called to be a light and example, especially when the goin
 
 Our consistent efforts are finally making an impact on the villages and the result is that our school enrollment is growing. While we are excited that our labor (of love) is finally making a difference, we are also now being pushed to build more classrooms and teacher’s quarters.
 
-<figure>
+<figure class="c-figure c-figure--pack">
     <div class="o-pack o-pack--tiny">
-        <span class="o-pack__item"><img class="u-zoomable" src="{{site.img_dir}}/2017/06/construction-1.jpg" /></span>
-        <span class="o-pack__item"><img class="u-zoomable" src="{{site.img_dir}}/2017/06/construction-2.jpg" /></span>
-        <span class="o-pack__item"><img class="u-zoomable" src="{{site.img_dir}}/2017/06/construction-3.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--3x u-zoom--left" src="{{site.img_dir}}/2017/06/construction-1.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--3x" src="{{site.img_dir}}/2017/06/construction-2.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--3x u-zoom--right" src="{{site.img_dir}}/2017/06/construction-3.jpg" /></span>
     </div>
     <figcaption>Construction of school buildings in different vilages</figcaption>
 </figure>
@@ -52,10 +52,10 @@ Already during this vacation period we have constructed a new classroom in Pinag
 
 We are excited that our efforts for the Master are bearing fruit. We are working overtime while we have good weather. The rainy season is very soon coming and we want to have a safe and inviting environment for these animist native students in which to learn about a loving Creator.
 
-<figure>
+<figure class="c-figure">
     <div class="o-pack o-pack--tiny">
-        <span class="o-pack__item"><img class="u-zoomable" src="{{site.img_dir}}/2017/06/new-building-1.jpg" /></span>
-        <span class="o-pack__item"><img class="u-zoomable" src="{{site.img_dir}}/2017/06/new-building-2.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--2x u-zoom--left" src="{{site.img_dir}}/2017/06/new-building-1.jpg" /></span>
+        <span class="o-pack__item"><img class="u-zoom u-zoom--2x u-zoom--right" src="{{site.img_dir}}/2017/06/new-building-2.jpg" /></span>
     </div>
     <figcaption>New school buildings in the villages of Pinagbayanan and Agbalite</figcaption>
 </figure>
