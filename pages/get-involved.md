@@ -44,7 +44,7 @@ Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
     </div>
     <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
         <p class="u-ic u-ic--check u-ic--huge"></p>
-        <p>Member of the Seventh-Day Adventist Church</p>
+        <p>Willingness to serve and learn</p>
     </div>
     <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
         <p class="u-ic u-ic--check u-ic--huge"></p>
