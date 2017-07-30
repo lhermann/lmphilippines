@@ -165,3 +165,31 @@ exclude:
 gems:
   - jekyll-paginate
   # - jekyll-assets
+
+menu:
+  -
+    label: "About Us"
+    url: /about-us/
+    menu:
+      -
+        label: "Laymen Ministries"
+        url: /lmp/
+      -
+        label: "Katutubo Excel Schools Inc."
+        url: /kesi/
+      -
+        label: "Sablayan Prison Ministry"
+        url: /prison-ministry/
+  -
+    label: "Get Involved"
+    url: /get-involved/
+  -
+    label: "Videos"
+    url: /videos/
+  -
+    label: "Gallery"
+    url: http://gallery.lmphilippines.org
+
+
+
+

@@ -36,25 +36,25 @@
    ========================================================================== */
 
 .c-btn--primary {
-  background-color: #4a8ec2;
+  background-color: $c-primary;
 
   &,
   &:hover,
   &:active,
   &:focus {
     text-decoration: none; /* [4] */
-    color: #fff;
+    color: $c-white;
   }
 
   &:hover,
   &:focus {
-    background-color: #3774a2;
+    background-color: $c-primary-darker;
   }
 
 }
 
 .c-btn--secondary {
-  background-color: $c-gray-3;
+  background-color: $c-secondary;
 
   &,
   &:hover,
@@ -67,7 +67,7 @@
   &:hover,
   &:focus {
     background-color: $c-gray-6;
-    color: $c-white;
+    color: $c-secondary;
   }
 
 }

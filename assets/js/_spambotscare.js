@@ -7,10 +7,17 @@
  */
 function spamrep() { this.href=this.href.replace(/spambotscare/,'') }
 (function() {
-    var spam = $("[data-defuscate]"), n = spam.attr("data-name"), d = spam.attr("data-domain");
+    var spam = $("[data-defuscate]");
     spam.each(function(e){
-        var n = $(this).attr("data-name"), d = $(this).attr("data-domain");
-        var nospam = "<a data-sbs href=\"mailto"+":"+n+"spambotscare@"+d+"\">"+n+"<span style=\"display: none;\">spambotscare</span>"+window.atob('QA==')+d+"</a>";
+        var n = $(this).attr("data-name"),
+            d = $(this).attr("data-domain"),
+            c = $(this).attr("data-class"),
+            i = $(this).attr("data-icon");
+        var content = n+"<span style=\"display: none;\">spambotscare</span>"+window.atob('QA==')+d;
+        if(i) {
+            content = "<span class=\"" + i + "\"></span>" + " " + content;
+        }
+        var nospam = "<a class=\""+c+"\" data-sbs href=\"mailto"+":"+n+"spambotscare@"+d+"\">"+content+"</a>";
         $(this).replaceWith( nospam );
     });
     $("body").on( 'click', "[data-sbs]", spamrep );

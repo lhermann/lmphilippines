@@ -1,15 +1,25 @@
-{% for p in site.pages %}
-    {% if p.title and p.menu-position == "main" %}
-            <li class="c-nav-list__item c-site-nav__item">
-                <a class="c-nav-list__link c-site-nav__link" href="{{p.url}}">
-                    {{p.title}}
-                </a>
-            </li>
-    {% endif %}
-{% endfor %}
+{% comment %}
+    {% for p in site.pages %}
+        {% if p.title and p.menu-position == "main" %}
+                <li class="c-nav-list__item c-site-nav__item">
+                    <a class="c-nav-list__link c-site-nav__link" href="{{p.url}}">
+                        {{p.title}}
+                    </a>
+                </li>
+        {% endif %}
+    {% endfor %}
 
-<li class="c-nav-list__item c-site-nav__item">
-    <a class="c-nav-list__link c-site-nav__link" href="http://gallery.lmphilippines.org">
-        Gallery
-    </a>
-</li>
+    <li class="c-nav-list__item c-site-nav__item">
+        <a class="c-nav-list__link c-site-nav__link" href="http://gallery.lmphilippines.org">
+            Gallery
+        </a>
+    </li>
+{% endcomment %}
+
+{% for item in site.menu %}
+    <li class="c-nav-list__item c-site-nav__item">
+        <a class="c-nav-list__link c-site-nav__link" href="{{item.url}}">
+            {{item.label}}
+        </a>
+    </li>
+{% endfor %}

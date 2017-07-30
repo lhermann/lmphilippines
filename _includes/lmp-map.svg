@@ -70,6 +70,10 @@
         .svg-link:hover {
             fill: #a63446;
         }
+        .svg-link-alt {
+            fill: #21272d;
+            font-size: 50%;
+        }
         .svg-btn {
             opacity: .4;
             cursor: pointer;
@@ -118,30 +122,45 @@
         <g class="svg-text zoomed-labels">
             <!-- <a class="svg-link" xlink:href="https://www.lmphilippines.org" onmouseover="showImg('svgKauImg')" onmouseout="hideImg('svgKauImg')"> -->
             <a class="svg-link" onmouseover="showImg('svgKauImg')" onmouseout="hideImg('svgKauImg')">
-                <text transform="translate(503 637)" text-anchor="middle">
+                <text transform="translate(491 637)">
                     <tspan x="0" y="0">Kaupawan</tspan>
-                    <tspan x="-1" y="5.5">Academy</tspan>
+                    <tspan x="0" y="3.5" class="svg-link-alt">High School / Academy</tspan>
                 </text>
                 <circle cx="516.62" cy="630.82" r=".927"/>
             </a>
             <a class="svg-link" onmouseover="showImg('svgSulImg')" onmouseout="hideImg('svgSulImg')">
-                <text transform="translate(520 627.517)">Sulung Ipil</text>
+                <text transform="translate(520 627)">
+                    <tspan x="0" y="0">Sulong Ipil</tspan>
+                    <tspan x="0" y="3.5" class="svg-link-alt">Elementary School</tspan>
+                </text>
                 <circle cx="517.195" cy="628.908" r=".927"/>
             </a>
             <a class="svg-link" onmouseover="showImg('svgBinImg')" onmouseout="hideImg('svgBinImg')">
-                <text transform="translate(486 610.2)" text-anchor="end">Binuangan</text>
+                <text transform="translate(462 610.2)">
+                    <tspan x="0" y="0">Binuangan</tspan>
+                    <tspan x="0" y="3.5" class="svg-link-alt">Elementary School</tspan>
+                </text>
                 <circle cx="488.245" cy="609.039" r=".927"/>
             </a>
             <a class="svg-link" onmouseover="showImg('svgAgbImg')" onmouseout="hideImg('svgAgbImg')">
-                <text transform="translate(501.92 602.971)">Agbalite</text>
+                <text transform="translate(502 601)">
+                    <tspan x="0" y="0">Agbalite</tspan>
+                    <tspan x="0" y="3.5" class="svg-link-alt">Elementary School</tspan>
+                </text>
                 <circle cx="499.53" cy="604.899" r=".927"/>
             </a>
             <a class="svg-link" onmouseover="showImg('svgPinImg')" onmouseout="hideImg('svgPinImg')">
-                <text transform="translate(495 601.78)" text-anchor="end">Pinagbayanan</text>
+                <text transform="translate(465 601)">
+                    <tspan x="0" y="0">Pinagbayanan</tspan>
+                    <tspan x="0" y="3.5" class="svg-link-alt">Elementary School</tspan>
+                </text>
                 <circle cx="496.62" cy="603.971" r=".927"/>
             </a>
             <a class="svg-link" onmouseover="showImg('svgPriImg')" onmouseout="hideImg('svgPriImg')">
-                <text transform="translate(524 666)" text-anchor="end">Prision Ministry</text>
+                <text transform="translate(504 666)">
+                    <tspan x="0" y="0">Sablayan</tspan>
+                    <tspan x="0" y="3.5" class="svg-link-alt">Prision Ministry</tspan>
+                </text>
                 <circle cx="529" cy="665" r=".927"/>
             </a>
         </g>
