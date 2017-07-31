@@ -7,7 +7,7 @@ menu-position: main
 cover-image: /assets/img/cover/panorama.jpg
 ---
 
-Each year, volunteers coming from different parts of the world, are joining the local team to help the Katutubos in Occidental Mindoro. Experiences and stories proof that each volunteer has benefited from his time helping others.
+Each year, volunteers coming from different parts of the world, are joining the local team to help the Katutubos in Occidental Mindoro. Experiences and stories prove that each volunteer has benefited from his time helping others.
 
 How about you? Do you want to get actively involved in frontline mission work? There are basically two options:
 
@@ -48,7 +48,7 @@ Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
     </div>
     <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
         <p class="u-ic u-ic--check u-ic--huge"></p>
-        <p>Fluent in English</p>
+        <p>Advanced or fluent in English</p>
     </div>
     <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
         <p class="u-ic u-ic--check u-ic--huge"></p>
