@@ -100,7 +100,6 @@ $unit-huge:     $inuit-global-spacing-unit-huge;
 
 
 // TOOLS
-@import "../node_modules/inuitcss/tools/tools.rem";
 @import "../node_modules/inuitcss/tools/tools.font-size";
 @import "../node_modules/inuitcss/tools/tools.clearfix";
 @import "../node_modules/inuitcss/tools/tools.hidden";
@@ -214,13 +213,12 @@ $inuit-list-inline-delimiter: ",\00A0";
 @import "../node_modules/inuitcss/objects/objects.block";
 @import "../node_modules/inuitcss/objects/objects.ratio";
 @import "../node_modules/inuitcss/objects/objects.crop";
-@import "../node_modules/inuitcss/objects/objects.tables";
 @import "../node_modules/inuitcss/objects/objects.pack";
 
-.o-pack--tiny {
-    margin-left: -$unit-tiny;
-    width: calc(100% + #{$unit-tiny * 2});
-}
+// .o-pack--tiny {
+//     margin-left: -$unit-tiny;
+//     width: calc(100% + #{$unit-tiny * 2});
+// }
 
 
 // COMPONENTS
@@ -233,50 +231,8 @@ $inuit-list-inline-delimiter: ",\00A0";
 @import "components.mobile-nav";
 @import "components.article";
 @import "components.buttons";
-
-.c-figure {
-    margin-right: -$unit;
-    margin-left: -$unit;
-
-    @include mq($from: tablet) {
-        margin-right: -$unit-large;
-        margin-left: -$unit-large;
-    }
-
-    &--wide {
-        @include mq($from: tablet) {
-            margin-right: -$unit-huge;
-            margin-left: -$unit-huge;
-        }
-    }
-
-    &--right {
-        float: right;
-
-        @include mq($from: tablet) {
-            margin-left: $unit;
-            width: 50%;
-        }
-    }
-
-    &--left {
-        float: left;
-
-        @include mq($from: tablet) {
-            margin-right: $unit;
-            width: 50%;
-        }
-    }
-
-    &--round {
-        border-radius: $global-radius;
-    }
-
-    > .o-pack {
-        margin-left: -$unit-tiny;
-        width: calc(100% + $unit-small);
-    }
-}
+@import "components.figure";
+@import "components.category-list";
 
 .c-box {
     &--primary {
@@ -298,8 +254,8 @@ $inuit-list-inline-delimiter: ",\00A0";
 $inuit-offsets: true;
 @import "../node_modules/inuitcss/utilities/utilities.widths";
 @import "../node_modules/inuitcss/utilities/utilities.headings";
-@import "../node_modules/inuitcss/utilities/utilities.spacing";
-@import "utilities.responsive-spacing";
+// @import "../node_modules/inuitcss/utilities/utilities.responsive-spacings";
+@import "utilities.responsive-spacings";
 @import "../node_modules/inuitcss/utilities/utilities.print";
 @import "utilities.orientation";
 @import "utilities.hide";

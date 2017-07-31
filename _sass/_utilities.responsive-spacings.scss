@@ -31,31 +31,61 @@ $inuit-widths-breakpoint-separator: \@ !default;
 
 
 $inuit-responsive-spacing-directions: (
-  // "-top": "-top",
-  "-bottom": "-bottom",
+  null: null,
+  "t": "-top",
+  "r": "-right",
+  "b": "-bottom",
+  "l": "-left"
 ) !default;
 
 $inuit-responsive-spacing-properties: (
-  // "padding": "padding",
-  "margin": "margin",
+  "m": "margin",
+  "p": "padding"
 ) !default;
 
 $inuit-responsive-spacing-sizes: (
-  '-huge': $inuit-global-spacing-unit-large,
-  // "-none": 0
+  null: $inuit-global-spacing-unit,
+  \-\-: $unit-tiny,
+  \-: $unit-small,
+  \+: $unit-large,
+  \+\+: $unit-huge,
+  0: 0
+) !default;
+
+$inuit-responsive-breakpoints: (
+    tablet: map-get($mq-breakpoints, tablet),
+    desktop: map-get($mq-breakpoints, desktop)
 ) !default;
 
 
 
 /* stylelint-disable max-nesting-depth */
 
+// Generatere normal spacings
+@each $property-namespace, $property in $inuit-responsive-spacing-properties {
+
+  @each $direction-namespace, $direction in $inuit-responsive-spacing-directions {
+
+    @each $size-namespace, $size in $inuit-responsive-spacing-sizes {
+
+      .u-#{$property-namespace}#{$direction-namespace}#{$size-namespace} {
+        #{$property}#{$direction}: $size !important;
+      }
+
+    }
+
+  }
+
+}
+
+// Generatere spacings with responsive endings
 @each $property-namespace, $property in $inuit-responsive-spacing-properties {
 
   @each $direction-namespace, $direction-rules in $inuit-responsive-spacing-directions {
 
     @each $size-namespace, $size in $inuit-responsive-spacing-sizes {
 
-      @each $inuit-bp-name, $inuit-bp-value in $mq-breakpoints {
+      @each $inuit-bp-name, $inuit-bp-value in $inuit-responsive-breakpoints {
 
         @include mq($from: $inuit-bp-name) {
 
@@ -76,5 +106,6 @@ $inuit-responsive-spacing-sizes: (
   }
 
 }
+
 
 /* stylelint-enable max-nesting-depth */

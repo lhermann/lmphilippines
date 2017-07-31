@@ -17,7 +17,7 @@ How about you? Do you want to get actively involved in frontline mission work? T
 
 ### Teacher
 
-<figure class="c-figure c-figure--left u-1/3">
+<figure class="c-figure c-figure--left u-1/3@tablet">
     <img class="u-zoom u-zoom--3x u-zoom--left" alt="Christy with Students" src="{{site.img_dir}}/2017/07/christys-students-800.jpg">
 </figure>
 
@@ -26,7 +26,7 @@ Teachers are needed for the elementary and secondary school. A professional teac
 
 ### Volunteer
 
-<figure class="c-figure c-figure--left u-1/3">
+<figure class="c-figure c-figure--left u-1/3@tablet">
     <img class="u-zoom u-zoom--3x u-zoom--left" alt="Colunteer in the High School kitchen" src="{{site.img_dir}}/2017/05/volunteer-in-kitchen.jpg">
 </figure>
 
@@ -37,22 +37,30 @@ Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
 
 ## Who can get involved?
 
-<div class="o-pack o-pack--tiny u-text-center">
-    <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
-        <p class="u-ic u-ic--check u-ic--huge"></p>
-        <p>Above 18 years of age</p>
+<div class="o-layout o-layout--small o-layout--stretch u-text-center">
+    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
+        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+            <p class="u-ic u-ic--check u-ic--huge"></p>
+            <p>Above 18 years of age</p>
+        </div>
     </div>
-    <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
-        <p class="u-ic u-ic--check u-ic--huge"></p>
-        <p>Willingness to serve and learn</p>
+    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
+        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+            <p class="u-ic u-ic--check u-ic--huge"></p>
+            <p>Willingness to serve and learn</p>
+        </div>
     </div>
-    <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
-        <p class="u-ic u-ic--check u-ic--huge"></p>
-        <p>Advanced or fluent in English</p>
+    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
+        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+            <p class="u-ic u-ic--check u-ic--huge"></p>
+            <p>Advanced or fluent in English</p>
+        </div>
     </div>
-    <div class="o-pack__item o-box o-box--small c-box c-box--secondary">
-        <p class="u-ic u-ic--check u-ic--huge"></p>
-        <p>With a deep love for God</p>
+    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
+        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+            <p class="u-ic u-ic--check u-ic--huge"></p>
+            <p>With a deep love for God</p>
+        </div>
     </div>
 </div>
 
@@ -61,8 +69,8 @@ Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
 ## How can I get invloved?
 
 <div class="o-layout">
-    <div class="o-layout__item u-1/2@tablet">
-        <p>Call or email us!</p>
+    <div class="o-layout__item u-1/2@tablet u-mb">
+        <p>Call or email us:</p>
 
         <ul class="o-list-bare">
             <li>

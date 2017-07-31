@@ -4,7 +4,7 @@
   "description": "Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)",
   "main": "_site/index.html",
   "dependencies": {
-    "inuitcss": "^6.0.0-beta.4"
+    "inuitcss": "^6.0.0-beta.5"
   },
   "devDependencies": {
     "stylelint": "@^7.10.1",
@@ -34,7 +34,12 @@
       "/usr/local/lib/node_modules/stylelint-no-unsupported-browser-features"
     ],
     "rules": {
-      "plugin/no-unsupported-browser-features": [true, { "severity": "warning" }],
+      "plugin/no-unsupported-browser-features": [
+        true,
+        {
+          "severity": "warning"
+        }
+      ],
       "indentation": null,
       "max-empty-lines": 2,
       "number-leading-zero": null

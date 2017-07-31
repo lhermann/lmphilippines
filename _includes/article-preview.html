@@ -24,21 +24,17 @@
         </h2>
 
         {% if post.categories %}
-            <div class="c-article__categories">
-                <ul class="o-list-inline o-list-inline--delimited u-margin-bottom-none">
-                    {% for c in post.categories %}
-                        <li class="o-list-inline__item">
-                            <small>
-                                <a class="c-article__categories__link" href="/category/{{ c | slugify }}">{{ c }}</a>
-                            </small>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
+            <ul class="c-category-list c-category-list--stay-above">
+                {% for c in post.categories %}
+                    <li class="c-category-list__item">
+                        <a class="c-category-list__link" href="/category/{{ c | slugify }}">{{ c }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
         {% endif %}
     </header>
 
-    <section class="c-article__body u-margin-bottom">
+    <section class="c-article__body u-mb">
         {% if post.content contains "<!-- more -->" %}
             {{ post.content | split:"<!-- more -->" | first % | append: " ..." }}
         {% else %}
