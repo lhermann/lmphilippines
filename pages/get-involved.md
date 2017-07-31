@@ -3,7 +3,6 @@ layout: page
 
 title: Get Involved
 permalink: /get-involved/
-menu-position: main
 cover-image: /assets/img/cover/panorama.jpg
 ---
 
@@ -39,25 +38,25 @@ Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
 
 <div class="o-layout o-layout--small o-layout--stretch u-text-center">
     <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
             <p class="u-ic u-ic--check u-ic--huge"></p>
             <p>Above 18 years of age</p>
         </div>
     </div>
     <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
             <p class="u-ic u-ic--check u-ic--huge"></p>
             <p>Willingness to serve and learn</p>
         </div>
     </div>
     <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
             <p class="u-ic u-ic--check u-ic--huge"></p>
             <p>Advanced or fluent in English</p>
         </div>
     </div>
     <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-box c-box--secondary u-1/1">
+        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
             <p class="u-ic u-ic--check u-ic--huge"></p>
             <p>With a deep love for God</p>
         </div>
@@ -68,30 +67,34 @@ Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
 
 ## How can I get invloved?
 
-<div class="o-layout">
-    <div class="o-layout__item u-1/2@tablet u-mb">
-        <p>Call or email us:</p>
+Contact us:
 
-        <ul class="o-list-bare">
-            <li>
-                PH: <span class="u-ic u-ic--phone u-ic--large"></span> 63-908-881-3104
-            </li>
-            <li>
-                US: <span class="u-ic u-ic--phone u-ic--large"></span> 1-800-245-1844
-            </li>
-            <li>
-                CH: <span class="u-ic u-ic--phone u-ic--large"></span> 41-791-354-740
-            </li>
-        </ul>
-
-        <noscript data-defuscate data-name="contact" data-domain="lmphilippines.org" data-class="c-btn c-btn--primary" data-icon="u-ic u-ic--mail u-ic--large"><em>(This email is protected with javascript)</em></noscript>
+<div class="o-layout o-layout--small o-layout--stretch u-mb-">
+    <div class="o-layout__item u-1/2@tablet u-mb-">
+        <div class="o-box o-box--small c-info c-info--primary u-1/1 u-text-center">
+            <ul class="o-list-bare">
+                <li>
+                    <strong>PH:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 63-908-881-3104
+                </li>
+                <li>
+                    <strong>US:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 1-800-245-1844
+                </li>
+                <li>
+                    <strong>CH:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 41-791-354-740
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="o-layout__item u-1/2@tablet">
-        <p>Or directly fill out our Mission Application form:</p>
-
-        <a class="c-btn c-btn--secondary" href="http://www.lmn.org/forms/Youth%20Mission%20app_eml.pdf">
-            <span class="u-ic u-ic--document u-ic--large"></span>
-            Youth in Mission Application
-        </a>
+    <div class="o-layout__item u-1/2@tablet u-mb-">
+        <div class="o-box o-box--small c-info c-info--primary u-1/1 u-orient-middle u-orient-center">
+            <noscript data-defuscate data-name="contact" data-domain="lmphilippines.org" data-icon="u-ic u-ic--mail u-ic--large"><em>(This email is protected with javascript)</em></noscript>
+        </div>
     </div>
 </div>
+
+Or directly fill out our mission application:
+
+<a class="c-btn c-btn--ghost c-btn--gray" href="http://www.lmn.org/forms/Youth%20Mission%20app_eml.pdf">
+    <span class="u-ic u-ic--document u-ic--large"></span>
+    Youth in Mission Application
+</a>

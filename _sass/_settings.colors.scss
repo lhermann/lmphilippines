@@ -5,14 +5,17 @@
 // Brand Colors
 
 $c-primary:               #2077b2;
-// $c-primary:               #14409A;
-$c-primary-lighter:       lighten($c-primary, 10%);
+$c-primary-lighter:       lighten($c-primary, 45%);
 $c-primary-darker:        darken($c-primary, 10%);
 
-// $c-secondary:             #a63446;
-$c-secondary:             #e8e8e8;
-$c-secondary-lighter:     lighten($c-secondary, 10%);
+$c-secondary:             #de8d35;
+$c-secondary-lighter:     lighten($c-secondary, 35%);
 $c-secondary-darker:      darken($c-secondary, 10%);
+
+$c-tertiary:              #9aaf48;
+$c-tertiary-lighter:      lighten($c-tertiary, 42%);
+$c-tertiary-darker:       darken($c-tertiary, 10%);
+
 
 $c-dark:                  #333;
 

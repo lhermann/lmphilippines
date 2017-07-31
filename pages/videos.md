@@ -3,7 +3,6 @@ layout: page
 
 title: Videos
 permalink: /videos/
-menu-position: main
 ---
 
 ## 2017

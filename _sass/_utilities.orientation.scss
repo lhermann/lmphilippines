@@ -3,31 +3,36 @@
    ========================================================================== */
 
 /**
- * orientate text and other content
+ * orient content of a block
  *
- *   <div class="u-content-center"></div>
+ *   <div class="u-orient u-orient--middle"></div>
  */
 
-$orientations: (
-    left:   "-left",
-    right:  "-right",
-    center: "-center"
+$orient-horizontal: (
+    left:   "flex-start",
+    center: "center",
+    right:  "flex-end"
 );
 
-@each $orientation, $orientations-namespace in $orientations {
-    .u-content#{$orientations-namespace} {
-        text-align: $orientation;
+$orient-vertical: (
+    top:    "flex-start",
+    middle: "center",
+    bottom: "flex-end"
+);
+
+[class^="u-orient"],
+[class*=" u-orient"] {
+    display: flex !important;
+}
+
+@each $key, $value in $orient-vertical {
+    .u-orient-#{$key} {
+        align-items: #{$value} !important;
     }
 }
 
-// .u-content-center\@mobile {
-//     @include mq($until: tablet) {
-//         text-align: center !important;
-//     }
-// }
-
-
-.u-box-center {
-    margin-right: auto;
-    margin-left: auto;
+@each $key, $value in $orient-horizontal {
+    .u-orient-#{$key} {
+        justify-content: #{$value} !important;
+    }
 }

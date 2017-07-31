@@ -234,15 +234,25 @@ $inuit-list-inline-delimiter: ",\00A0";
 @import "components.figure";
 @import "components.category-list";
 
-.c-box {
+.c-info {
     &--primary {
-        background-color: $c-primary;
-        color: $c-white;
+        background-color: $c-primary-lighter;
+        color: $c-primary-darker;
     }
 
     &--secondary {
-        background-color: $c-secondary;
-        color: $c-gray-8;
+        background-color: $c-secondary-lighter;
+        color: $c-secondary-darker;
+    }
+
+    &--tertiary {
+        background-color: $c-tertiary-lighter;
+        color: $c-tertiary-darker;
+    }
+
+    &--gray {
+        background-color: $c-gray-2;
+        color: $c-gray-7;
     }
 }
 
@@ -260,9 +270,10 @@ $inuit-offsets: true;
 @import "utilities.orientation";
 @import "utilities.hide";
 @import "utilities.fonts";
+@import "utilities.text-align";
 
-.u-text-center {
-    text-align: center;
+.u-text {
+    color: $c-text;
 }
 
 .u-muted {

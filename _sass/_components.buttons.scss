@@ -61,32 +61,49 @@
   &:active,
   &:focus {
     text-decoration: none;
-    color: $c-text;
+    color: $c-white;
   }
 
   &:hover,
   &:focus {
-    background-color: $c-gray-6;
-    color: $c-secondary;
+    background-color: $c-secondary-darker;
   }
 
 }
 
 .c-btn--tertiary {
-  background-color: #fff;
-  color: #4a8ec2;
+  background-color: $c-tertiary;
 
   &,
   &:hover,
   &:active,
   &:focus {
     text-decoration: none;
-    color: #4a8ec2;
+    color: $c-white;
   }
 
   &:hover,
   &:focus {
-    color: #3774a2;
+    background-color: $c-tertiary-darker;
+  }
+
+}
+
+.c-btn--gray {
+  background-color: $c-gray-2;
+
+  &,
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+    color: $c-gray-7;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $c-gray-7;
+    color: $c-gray-2;
   }
 
 }
@@ -145,34 +162,21 @@ $btn-ghost-border-width: 1px;
     }
 
     &.c-btn--primary {
-        color: $c-accent;
-
-        // &:hover,
-        // &:focus {
-        //   color: #3774a2;
-        // }
+        color: $c-primary-darker;
 
     }
 
     &.c-btn--secondary {
-        color: $c-text;
-
-        // &:hover,
-        // &:focus {
-        //   color: #1d2733;
-        // }
+        color: $c-secondary-darker;
 
     }
 
     &.c-btn--tertiary {
-        color: #fff;
+        color: $c-tertiary-darker;
+    }
 
-        &:hover,
-        &:focus {
-          color: #fff;
-
-        }
-
+    &.c-btn--gray {
+        color: $c-gray-7;
     }
 
 }
