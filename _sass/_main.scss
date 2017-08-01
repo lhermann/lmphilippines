@@ -173,20 +173,7 @@ blockquote {
 }
 
 figure {
-
-    // margin-right: -$unit;
-    // margin-left: -$unit;
     text-align: center;
-
-    // @include mq($from: tablet) {
-    //     // margin-right: -$unit-huge;
-    //     // margin-left: -$unit-huge;
-    //     border-radius: $global-radius;
-
-    //     img {
-    //         border-radius: $global-radius;
-    //     }
-    // }
 
     figcaption {
         margin-top: $unit-tiny;
@@ -201,7 +188,6 @@ figure {
 // OBJECTS
 //
 // Uncomment and add to this section as necessary.
-$inuit-wrapper-width: 820px;
 @import "../node_modules/inuitcss/objects/objects.wrapper";
 @import "../node_modules/inuitcss/objects/objects.layout";
 @import "../node_modules/inuitcss/objects/objects.media";
@@ -263,11 +249,8 @@ $inuit-wrapper-width: 820px;
 
 // UTILITIES
 @import "../node_modules/inuitcss/utilities/utilities.clearfix";
-
-$inuit-offsets: true;
 @import "../node_modules/inuitcss/utilities/utilities.widths";
 @import "../node_modules/inuitcss/utilities/utilities.headings";
-// @import "../node_modules/inuitcss/utilities/utilities.responsive-spacings";
 @import "utilities.responsive-spacings";
 @import "../node_modules/inuitcss/utilities/utilities.print";
 @import "utilities.orientation";
