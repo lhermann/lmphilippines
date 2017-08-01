@@ -1,4 +1,4 @@
 ---
 category: High School
-permalink: "/category/high-school"
+permalink: "/category/high-school/"
 ---

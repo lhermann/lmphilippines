@@ -1,4 +1,4 @@
 ---
 category: Agbalite
-permalink: "/category/agbalite"
+permalink: "/category/agbalite/"
 ---

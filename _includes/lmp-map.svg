@@ -42,7 +42,7 @@
             stroke-miterlimit: 10;
         }
         .svg-text {
-            fill: #2678B0;
+            fill: #185a87;
             font-size: .3em;
         }
         .svg-text-alt {
@@ -68,7 +68,7 @@
             /*cursor: pointer;*/
         }
         .svg-link:hover {
-            fill: #a63446;
+            fill: #185a87;
         }
         .svg-link-alt {
             fill: #21272d;

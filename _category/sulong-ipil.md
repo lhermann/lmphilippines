@@ -1,4 +1,4 @@
 ---
 category: Sulong-Ipil
-permalink: "/category/sulong-ipil"
+permalink: "/category/sulong-ipil/"
 ---

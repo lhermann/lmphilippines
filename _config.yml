@@ -64,10 +64,6 @@ defaults:
     values:
       layout: "category"
 
-# categories:
-#   high-school: "High School"
-#   pinagbayanan: "Pinagbayanan"
-
 # Image directories
 article_img_dir: /images/articles
 wp_img_dir:      /images/wp-uploads

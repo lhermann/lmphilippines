@@ -202,7 +202,6 @@ figure {
 //
 // Uncomment and add to this section as necessary.
 $inuit-wrapper-width: 820px;
-$inuit-list-inline-delimiter: ",\00A0";
 @import "../node_modules/inuitcss/objects/objects.wrapper";
 @import "../node_modules/inuitcss/objects/objects.layout";
 @import "../node_modules/inuitcss/objects/objects.media";
@@ -215,10 +214,14 @@ $inuit-list-inline-delimiter: ",\00A0";
 @import "../node_modules/inuitcss/objects/objects.crop";
 @import "../node_modules/inuitcss/objects/objects.pack";
 
-// .o-pack--tiny {
-//     margin-left: -$unit-tiny;
-//     width: calc(100% + #{$unit-tiny * 2});
-// }
+.o-wrapper--wide {
+    max-width: 1420px;
+}
+
+.o-wrapper--flush {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 
 // COMPONENTS
@@ -269,7 +272,7 @@ $inuit-offsets: true;
 @import "../node_modules/inuitcss/utilities/utilities.print";
 @import "utilities.orientation";
 @import "utilities.hide";
-@import "utilities.fonts";
+@import "utilities.icons";
 @import "utilities.text-align";
 
 .u-text {

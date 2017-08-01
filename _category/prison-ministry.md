@@ -1,4 +1,4 @@
 ---
 category: Prison Ministry
-permalink: "/category/prison-ministry"
+permalink: "/category/prison-ministry/"
 ---

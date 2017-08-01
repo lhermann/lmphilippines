@@ -80,7 +80,7 @@ Contact us:
                     <strong>US:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 1-800-245-1844
                 </li>
                 <li>
-                    <strong>CH:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 41-791-354-740
+                    <strong>CH:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 41-79-135-4740
                 </li>
             </ul>
         </div>
@@ -95,6 +95,6 @@ Contact us:
 Or directly fill out our mission application:
 
 <a class="c-btn c-btn--ghost c-btn--gray" href="http://www.lmn.org/forms/Youth%20Mission%20app_eml.pdf">
-    <span class="u-ic u-ic--document u-ic--large"></span>
+    <span class="u-ic u-ic--document u-ic--large u-ic--baseline"></span>
     Youth in Mission Application
 </a>

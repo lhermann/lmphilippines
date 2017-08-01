@@ -1,4 +1,4 @@
 ---
 category: Binuangan
-permalink: "/category/binuangan"
+permalink: "/category/binuangan/"
 ---

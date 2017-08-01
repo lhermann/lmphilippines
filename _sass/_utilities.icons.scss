@@ -1,3 +1,7 @@
+/* ==========================================================================
+   #ICONS
+   ========================================================================== */
+
 @font-face {
     font-family: "icomoon";
     src: url("/assets/icomoon/fonts/icomoon.eot?kfrnip");
@@ -19,19 +23,22 @@
     font-style: normal;
     font-variant: normal;
     speak: none;
+    vertical-align: -2px;
 
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
+    &--baseline {
+        vertical-align: baseline;
+    }
+
     &--large {
         transform: scale(1.2);
-        vertical-align: -1px;
     }
 
     &--huge {
         transform: scale(2);
-        vertical-align: -1px;
     }
 }
 

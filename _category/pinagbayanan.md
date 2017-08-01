@@ -1,4 +1,4 @@
 ---
 category: Pinagbayanan
-permalink: "/category/pinagbayanan"
+permalink: "/category/pinagbayanan/"
 ---
