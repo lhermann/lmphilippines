@@ -22,7 +22,9 @@ You have several ways to support us:
 </div>
 
 <div class="o-box o-box--small c-info c-info--secondary u-mb-">
-    <div class="o-layout o-layout--middle">
+    <h3>Europe</h3>
+    Details coming soon ...
+    <!-- <div class="o-layout o-layout--middle">
         <div class="o-layout__item u-1/2@tablet u-mb u-mb0@tablet">
             <h3>Europe</h3>
             Through our bank account in Europe.
@@ -34,11 +36,13 @@ You have several ways to support us:
                 <li><strong>IBAN:</strong> DE000000000000000</li>
             </ul>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div class="o-box o-box--small c-info c-info--tertiary u-mb-">
-    <div class="o-layout o-layout--middle">
+    <h3>Philippines</h3>
+    Details coming soon ...
+    <!-- <div class="o-layout o-layout--middle">
         <div class="o-layout__item u-1/2@tablet u-mb u-mb0@tablet">
             <h3>Philippines</h3>
             Through our bank account in the Philippines.
@@ -50,7 +54,7 @@ You have several ways to support us:
                 <li>Something Something</li>
             </ul>
         </div>
-    </div>
+    </div> -->
 </div>
 
 
