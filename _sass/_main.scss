@@ -222,6 +222,12 @@ figure {
 @import "components.buttons";
 @import "components.figure";
 @import "components.category-list";
+@import "components.links";
+@import "components.featherlight";
+
+.o-crop__content {
+    max-height: 100%;
+}
 
 .c-info {
     &--primary {
@@ -240,8 +246,13 @@ figure {
     }
 
     &--gray {
-        background-color: $c-gray-2;
+        background-color: $c-gray-1;
         color: $c-gray-7;
+    }
+
+    &--black {
+        background-color: $c-gray-8;
+        color: $c-gray-2;
     }
 }
 

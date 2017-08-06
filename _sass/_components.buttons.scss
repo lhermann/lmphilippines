@@ -119,6 +119,10 @@
   padding: $inuit-global-spacing-unit-tiny $inuit-global-spacing-unit-small;
 }
 
+.c-btn--tiny {
+  padding: $inuit-global-spacing-unit-tiny/2 $inuit-global-spacing-unit-small;
+}
+
 .c-btn--large {
   padding: $inuit-global-spacing-unit $inuit-global-spacing-unit-large;
 }
@@ -155,6 +159,10 @@ $btn-ghost-border-width: 1px;
 
     &.c-btn--small {
     padding: ($inuit-global-spacing-unit-tiny - $btn-ghost-border-width) ($inuit-global-spacing-unit-small - $btn-ghost-border-width);
+    }
+
+    &.c-btn--tiny {
+        padding: ($inuit-global-spacing-unit-tiny/2 - $btn-ghost-border-width) ($inuit-global-spacing-unit-small - $btn-ghost-border-width);
     }
 
     &.c-btn--large {

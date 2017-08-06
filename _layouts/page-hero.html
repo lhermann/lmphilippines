@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<header class="c-site-cover c-site-cover--16/9 c-site-cover--dark c-site-cover--lead" style="background-image:url(
+    {% if page.cover-image %}
+        {{ page.cover-image }}
+    {% else %}
+        {{ site.inc.cover-image }}
+    {% endif %}
+    );">
+
+    <div class="c-site-cover__inner u-orient-middle">
+        <div class="o-wrapper u-text-center">
+            <h1 class="c-site-cover__title">{{ page.title }}</h1>
+            {% if page.subtitle %}
+                <h3 class="c-site-cover__subtitle">{{ page.subtitle }}</h3>
+            {% endif %}
+        </div>
+    </div>
+
+</header>
+
+{{ content }}

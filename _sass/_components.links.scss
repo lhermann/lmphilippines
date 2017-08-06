@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #LINKS
+   ========================================================================== */
+
+.c-link {
+    color: $c-text;
+    border-bottom: 1px dotted rgba($c-text, .3);
+
+    &:focus,
+    &:hover {
+        border-color: $c-text;
+    }
+
+    &--opacity {
+        transition: opacity $global-transition;
+        opacity: .6;
+
+        &:focus,
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+

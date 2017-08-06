@@ -18,7 +18,9 @@ $inuit-responsive-spacing-directions: (
   "t": "-top",
   "r": "-right",
   "b": "-bottom",
-  "l": "-left"
+  "l": "-left",
+  "h": ("-right", "-left"),
+  "v": ("-top", "-bottom")
 );
 
 $inuit-responsive-spacing-properties: (
@@ -33,4 +35,9 @@ $inuit-responsive-spacing-sizes: (
   \+:   $inuit-global-spacing-unit-large,
   \+\+: $inuit-global-spacing-unit-huge,
   '0': 0
+);
+
+$inuit-crops: (
+  (1:1),
+  (16:9),
 );
