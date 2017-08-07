@@ -209,6 +209,12 @@ figure {
     padding-left: 0;
 }
 
+// @include mq($until: tablet) {
+//     .o-layout--reverse\@mobile {
+//       direction: rtl;
+//     }
+// }
+
 
 // COMPONENTS
 //
@@ -315,4 +321,14 @@ figure {
 
 .u-float-right {
     float: right;
+}
+
+.u-z1 {
+    position: relative;
+    z-index: 1;
+}
+
+.u-z2 {
+    position: relative;
+    z-index: 2;
 }

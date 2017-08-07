@@ -10,13 +10,13 @@ cover-image: /assets/img/cover/prison-ministry.jpg
 <div class="o-wrapper o-wrapper--wide o-wrapper--flush">
 
     <div class="o-layout o-layout--flush o-layout--reverse o-layout--middle u-mt+@tablet">
-        <div class="o-layout__item u-3/5@tablet u-1/2@desktop u-pv++ u-ph u-p0@tablet u-pr+@tablet">
+        <div class="o-layout__item u-3/5@tablet u-1/2@desktop u-pv++ u-ph u-p0@tablet u-pr+@tablet u-z2">
             <div class="o-box u-text-center">
-                I <span class="u-muted">(left)</span> started with LMP in 1999 and Brother Abel <span class="u-muted">(right)</span> joined us in 2001. Both of us are product of the 1000 Missionary Movement, a mission training school here in the Philippines. ... Rigth now, we have the privilege to preach the Word of God inside the maximum security cell with lifers.
-                <br><small class="u-muted">Louie Benitez, Prison Ministry Coordinator</small>
+                I started with LMP in 1999 and Brother Abel joined us in 2001. Both of us are product of the 1000 Missionary Movement, a mission training school here in the Philippines. ... Rigth now, we have the privilege to preach the Word of God inside the maximum security cell with lifers.
+                <br><small class="u-muted">Louie Benitez, Prison Ministry Coordinator, on the picture left</small>
             </div>
         </div>
-        <div class="o-layout__item u-2/5@tablet u-1/2@desktop u-pt@tablet">
+        <div class="o-layout__item u-2/5@tablet u-1/2@desktop u-pt@tablet u-z1">
             <img style="max-width: 140%;" src="/assets/img/pages/prison-ministry-team.jpg">
         </div>
     </div>
@@ -27,7 +27,7 @@ cover-image: /assets/img/cover/prison-ministry.jpg
         </div>
     </div>
 
-    <div class="o-layout o-layout--flush c-info c-info--black jsFeatherlightGallery" data-featherlight-gallery data-featherlight-filter="a">
+    <div class="o-layout o-layout--flush c-info c-info--black jsFeatherlightGallery">
         <div class="o-layout__item u-1/2 u-1/3@tablet">
             <div class="o-crop o-crop--1:1">
                 <a class="c-link c-link--opacity" href="/assets/img/pages/prison-ministry-1.jpg"><img class="o-crop__content" src="/assets/img/pages/prison-ministry-1.jpg" /></a>
@@ -67,7 +67,7 @@ cover-image: /assets/img/cover/prison-ministry.jpg
     <div class="o-layout o-layout--flush o-layout--center u-mb++">
         <div class="o-layout__item u-2/5@tablet">
             <div class="o-box u-text-center">
-                "We can transcend out life of suffering within the prison walls because joy floods our soul."
+                "We can transcend our life of suffering within the prison walls because joy floods our soul."
             </div>
         </div>
         <div class="o-layout__item u-2/5@tablet">
@@ -82,7 +82,7 @@ cover-image: /assets/img/cover/prison-ministry.jpg
         </div>
         <div class="o-layout__item u-2/5@tablet">
             <div class="o-box u-text-center">
-                "Now that Jesus is in my heart I can be aliving witness to bring more sould to His feet."
+                "Now that Jesus is in my heart I can be aliving witness to bring more souls to His feet."
             </div>
         </div>
     </div>
