@@ -60,7 +60,7 @@
         max-height: 95%;
 
         /* styling */
-        background: #fff;
+        // background: #fff;
         cursor: auto;
 
         /* reset white-space wrapping */
@@ -132,6 +132,16 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+    }
+
+    .featherlight-caption {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba($c-black, .5);
+        width: 100%;
+        text-align: center;
+        color: $c-white;
+        padding: $unit-tiny $unit;
     }
 }
 

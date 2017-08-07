@@ -87,7 +87,7 @@ Contact us:
     </div>
     <div class="o-layout__item u-1/2@tablet u-mb-">
         <div class="o-box o-box--small c-info c-info--primary u-1/1 u-orient-middle u-orient-center">
-            <noscript data-defuscate data-name="contact" data-domain="lmphilippines.org" data-icon="u-ic u-ic--mail u-ic--large"><em>(This email is protected with javascript)</em></noscript>
+            <noscript data-defuscate data-name="staff" data-domain="lmphilippines.org" data-icon="u-ic u-ic--mail u-ic--large"><em>(This email is protected with javascript)</em></noscript>
         </div>
     </div>
 </div>
