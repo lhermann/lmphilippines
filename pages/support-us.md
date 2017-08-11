@@ -52,7 +52,7 @@ You have several ways to support us:
         <h3>Europe</h3>
     </header>
     <div class="o-box o-box--small">
-        Coming soon ...
+        Details coming soon ...
     </div>
     <!--<div class="o-layout o-layout--middle">
         <div class="o-layout__item u-1/3@tablet u-mb u-mb0@tablet">
