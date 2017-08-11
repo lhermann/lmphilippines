@@ -237,6 +237,9 @@ figure {
 }
 
 .c-info {
+    background-color: $c-gray-1;
+    color: $c-gray-7;
+
     &--primary {
         background-color: $c-primary-lighter;
         color: $c-primary-darker;
@@ -252,16 +255,15 @@ figure {
         color: $c-tertiary-darker;
     }
 
-    &--gray {
-        background-color: $c-gray-1;
-        color: $c-gray-7;
-    }
-
     &--black {
         background-color: $c-gray-8;
         color: $c-gray-2;
     }
 }
+
+    .c-info__head {
+        border-bottom: 1px solid $c-white;
+    }
 
 
 

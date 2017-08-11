@@ -10,25 +10,44 @@ Welcome to the Laymen Ministries website dedicated to our work in the Philippine
 
 ## Contact
 
-Our headquarters in the Philippines:
-
-<div class="o-box o-box--small c-info c-info--secondary u-mb" markdown="1">
-
-| Laymen Ministries Philippines, Inc. | **Tel:** 63-908-881-3104 |
-| Kaupawan, Sulong Ipil, Brgy. Fatima | **Web:** [www.lmphilippines.org](http://www.lmphilippines.org/) |
-| Mamburao, Occidental Mindoro, PH    | **Email:** {% include email.html %}
-
+<div class="c-info c-info--tertiary u-mb">
+    <header class="o-box o-box--small c-info__head">
+        Our headquarters in the Philippines:
+    </header>
+    <div class="o-box o-box--small">
+        <div class="o-layout">
+            <div class="o-layout__item u-1/2@tablet">
+                Laymen Ministries Philippines, Inc.
+                <br>Kaupawan, Sulong Ipil, Brgy. Fatima
+                <br>Mamburao, Occidental Mindoro, PH
+            </div>
+            <div class="o-layout__item u-1/2@tablet">
+                <strong>Tel:</strong> 63-908-881-3104
+                <br><strong>Web:</strong> <a href="http://www.lmphilippines.org">www.lmphilippines.org</a>
+                <br><strong>Email:</strong> {% include email.html %}
+            </div>
+        </div>
+    </div>
 </div>
 
-
-Our headquarters in the US:
-
-<div class="o-box o-box--small c-info c-info--secondary u-mb" markdown="1">
-
-| Laymen Ministries    | **Tel:** 1-800-245-1844 |
-| 414 Zapada Rd.       | **Fax:** 1-208-245-3280 |
-| St. Maries, ID 83861 | **Web:** [www.lmn.org](http://www.lmn.org/) |
-
+<div class="c-info c-info--secondary u-mb">
+    <header class="o-box o-box--small c-info__head">
+        Our headquarters in the US:
+    </header>
+    <div class="o-box o-box--small">
+        <div class="o-layout">
+            <div class="o-layout__item u-1/2@tablet">
+                Laymen Ministries
+                <br>414 Zapada Rd.
+                <br>St. Maries, ID 83861
+            </div>
+            <div class="o-layout__item u-1/2@tablet">
+                <strong>Tel:</strong> 1-800-245-1844
+                <br><strong>Fax:</strong> 1-208-245-3280
+                <br><strong>Web:</strong> <a href="http://www.lmn.org">www.lmn.org</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 To read about how Laymen Ministries started, [go here](http://www.lmn.org/aboutus_humblebeginnings.html).
