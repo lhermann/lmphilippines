@@ -17,7 +17,11 @@ layout: base
 
     <article class="c-article">
 
-        <header class="c-article__header">
+        <header class="c-article__header u-mt+">
+            <h1 class="c-article__title">{{ page.title }}</h1>
+            {% if page.subtitle %}
+                <p class="c-article__subtitle">{{ page.subtitle }}</p>
+            {% endif %}
             <div class="c-article__meta">
                 By <address>
                     {{ page.author.name }}
@@ -36,10 +40,6 @@ layout: base
                     {% endfor %}
                 </ul>
             </div>
-            <h1 class="c-article__title">{{ page.title }}</h1>
-            {% if page.subtitle %}
-                <p class="c-article__subtitle">{{ page.subtitle }}</p>
-            {% endif %}
         </header>
 
         <section class="c-article__body">
