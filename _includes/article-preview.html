@@ -23,15 +23,17 @@
             <a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a>
         </h2>
 
-        {% if post.categories %}
-            <ul class="c-category-list c-category-list--stay-above">
-                {% for c in post.categories %}
-                    <li class="c-category-list__item">
-                        <a class="c-category-list__link" href="/category/{{ c | slugify }}">{{ c }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        {% endif %}
+        <div class="c-article__meta">
+            {% if post.categories %}
+                <ul class="c-category-list c-category-list--stay-above">
+                    {% for c in post.categories %}
+                        <li class="c-category-list__item">
+                            <a class="c-category-list__link" href="/category/{{ c | slugify }}">{{ c }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
     </header>
 
     <section class="c-article__body u-mb">
@@ -43,7 +45,7 @@
     </section>
 
     <footer class="c-article__meta">
-        Written By <address>{{ post.author.name }}</address> &mdash;
+        By <address>{{ post.author.name }}</address> &mdash;
         <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
     </footer>
 

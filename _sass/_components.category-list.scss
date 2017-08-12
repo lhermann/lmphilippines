@@ -6,7 +6,6 @@
     margin-left: 0;
     list-style: none;
     line-height: 1;
-    color: $c-textmuted;
 
 
     &--stay-above {
@@ -17,10 +16,12 @@
 
     .c-category-list__item {
         display: inline-block;
-        font-size: 80%;
 
         &:not(:last-child):after {
-            content: "\a0\b7"
+            // content: "\b7";
+            content: ",";
+            margin-left: -2px;
+            margin-right: 2px;
         }
     }
 

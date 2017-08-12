@@ -11,27 +11,35 @@ layout: base
 
 <section class="o-wrapper">
 
-    <div class="u-mb u-hidden@from-tablet">
-        <a class="c-btn c-btn--small c-btn--secondary" href="/">&lsaquo; Back</a>
-    </div>
+    <article class="c-article u-mt--">
 
-    <article class="c-article">
+        <header class="c-article__header">
 
-        <header class="c-article__header u-mt+">
-            <h1 class="c-article__title">{{ page.title }}</h1>
+            <div class="u-hidden@from-tablet u-mt">
+                <a class="c-btn c-btn--small c-btn--secondary" href="/">&lsaquo; Back</a>
+            </div>
+
+            <h1 class="c-article__title u-mt u-mt+@tablet">{{ page.title }}</h1>
             {% if page.subtitle %}
                 <p class="c-article__subtitle">{{ page.subtitle }}</p>
             {% endif %}
-            <div class="c-article__meta">
-                By <address>
-                    {{ page.author.name }}
-                </address> &mdash;
-                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}"
+
+            <div class="c-article__meta u-mt-">
+                By <address>{{ page.author.name }}</address>
+                <br><time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}"
                     title="{{ page.date | date: "%B %d, %Y" }}">
                     {{ page.date | date: "%B %d, %Y" }}
                 </time>
-                &mdash;
-                Categories:
+            </div>
+
+        </header>
+
+        <section class="c-article__body">
+            {{ content }}
+            {% include _social.html %}
+
+            <div class="c-article__meta u-mt+">
+                Tags:
                 <ul class="c-category-list">
                     {% for c in page.categories %}
                         <li class="c-category-list__item">
@@ -40,11 +48,7 @@ layout: base
                     {% endfor %}
                 </ul>
             </div>
-        </header>
 
-        <section class="c-article__body">
-            {{ content }}
-            {% include _social.html %}
         </section>
 
         <footer class="c-article__footer">

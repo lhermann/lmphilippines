@@ -42,6 +42,6 @@
 
     > .o-pack {
         margin-left: -$unit-tiny;
-        width: calc(100% + $unit-small);
+        width: calc(100% + #{$unit-small});
     }
 }
