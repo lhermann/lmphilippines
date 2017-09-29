@@ -166,9 +166,12 @@ blockquote {
     padding: $unit-tiny $unit;
 
     p {
-        margin-bottom: 0;
-        color: $c-textmuted;
+        color: $c-gray-7;
         font-style: italic;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
