@@ -5,16 +5,18 @@
 // Brand Colors
 
 $c-primary:               #2077b2;
-$c-primary-lighter:       lighten($c-primary, 50%);
-$c-primary-darker:        darken($c-primary, 10%);
+$c-primary-lighter:       lighten($c-primary, 25%);
+$c-primary-light:         lighten($c-primary, 12%);
+$c-primary-dark:          darken($c-primary, 10%);
+$c-primary-darker:        darken($c-primary, 20%);
 
 $c-secondary:             #de8d35;
-$c-secondary-lighter:     lighten($c-secondary, 35%);
-$c-secondary-darker:      darken($c-secondary, 10%);
+$c-secondary-light:       lighten($c-secondary, 35%);
+$c-secondary-dark:        darken($c-secondary, 10%);
 
 $c-tertiary:              #9aaf48;
-$c-tertiary-lighter:      lighten($c-tertiary, 42%);
-$c-tertiary-darker:       darken($c-tertiary, 10%);
+$c-tertiary-light:        lighten($c-tertiary, 42%);
+$c-tertiary-dark:         darken($c-tertiary, 10%);
 
 
 $c-dark:                  #333;
@@ -51,11 +53,11 @@ $c-background:                  $c-gray-2;
 $c-border:                      $c-gray-3;
 
 $c-link:                        $c-primary;
-$c-link-hover:                  $c-primary-darker;
+$c-link-hover:                  $c-primary-dark;
 
 $c-primary-btn-text:            $c-white;
 $c-primary-btn:                 $c-primary;
-$c-primary-btn-hover:           $c-primary-darker;
+$c-primary-btn-hover:           $c-primary-dark;
 
 $c-secondary-btn-text:          $c-text;
 $c-secondary-btn:               $c-gray-3;

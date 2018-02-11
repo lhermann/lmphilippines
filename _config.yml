@@ -147,7 +147,8 @@ sass:
 #   gzip: [ text/css, application/javascript ]
 #   debug: false
 
-inlcude:
+include:
+  - _pages
 
 exclude:
   - Gemfile

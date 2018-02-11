@@ -2,13 +2,7 @@
 layout: base
 ---
 
-<header class="c-site-cover c-site-cover--16/9 c-site-cover--dark c-site-cover--lead" style="background-image:url(
-    {% if page.cover-image %}
-        {{ page.cover-image }}
-    {% else %}
-        {{ site.inc.cover-image }}
-    {% endif %}
-    );">
+<header class="c-site-cover c-site-cover--16/9 c-site-cover--dark c-site-cover--lead">
 
     <div class="c-site-cover__inner u-orient-middle">
         <div class="o-wrapper u-text-center">
@@ -17,6 +11,13 @@ layout: base
                 <h3 class="c-site-cover__subtitle">{{ page.subtitle }}</h3>
             {% endif %}
         </div>
+    </div>
+
+    <div class="c-site-cover__image">
+        <img class="lazyload u-lazyload--blur"
+             src="{{ page.cover-image-prev }}"
+             data-src="{{ page.cover-image }}"
+             alt="" />
     </div>
 
 </header>

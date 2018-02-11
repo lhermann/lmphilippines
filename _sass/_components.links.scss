@@ -22,4 +22,11 @@
     }
 }
 
+.c-link--white {
+    &:focus,
+    &:hover {
+        color: $c-white;
+    }
+}
+
 

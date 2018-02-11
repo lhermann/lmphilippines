@@ -4,14 +4,15 @@
     "description": "Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)",
     "main": "_site/index.html",
     "dependencies": {
-        "inuitcss": "^6.0.0-beta.5"
+        "inuitcss": "^6.0.0-beta.5",
+        "lazysizes": "^4.0.1"
     },
     "devDependencies": {
         "stylelint": "^7.10.1",
         "stylelint-config-standard": "^16.0.0"
     },
     "scripts": {
-        "dev": "bundle exec jekyll serve",
+        "dev": "bundle exec jekyll serve --incremental",
         "build": "bundle exec jekyll build",
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "npm run dev"
