@@ -22,10 +22,10 @@ These challenges range from physical to emotional to material. The first respons
 
 Through many painful experiences, I have learned the hard way to approach these “growth opportunities” with pre-determined guide lines.
 
-* Have I prayed for wisdom and discernment?
-* Do I have all the facts?
-* Am I the best one to help solve this challenge, or do I seek help?
-* Is my solution enabling a bad habit to continue, or helping someone get on his feet?
+*   Have I prayed for wisdom and discernment?
+*   Do I have all the facts?
+*   Am I the best one to help solve this challenge, or do I seek help?
+*   Is my solution enabling a bad habit to continue, or helping someone get on his feet?
 
 These simple guidelines, when followed, have saved many a heartache; when not followed, the result is many heartaches as well as headaches!
 
@@ -69,5 +69,3 @@ Jesus has called all Christians to be his ambassadors and to represent him **now
 Thank you prayer partners and donors for giving us the possibility and privilege of preparing these native youth for service to their own people.
 
 We appreciate you and pray that you are also working now in your local vineyard of our master!
-
-
