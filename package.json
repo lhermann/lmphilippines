@@ -1,14 +1,13 @@
 {
     "name": "lmphilippines",
     "version": "1.0.0",
-    "description":
-        "Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)",
+    "description": "Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)",
     "main": "_site/index.html",
     "dependencies": {
         "inuitcss": "^6.0.0-beta.5"
     },
     "devDependencies": {
-        "stylelint": "@^7.10.1",
+        "stylelint": "^7.10.1",
         "stylelint-config-standard": "^16.0.0"
     },
     "scripts": {
@@ -27,7 +26,11 @@
         "url": "https://github.com/lhermann/lmphilippines/issues"
     },
     "homepage": "https://github.com/lhermann/lmphilippines#readme",
-    "browserslist": ["> 1%", "last 2 versions", "IE 10"],
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "IE 10"
+    ],
     "stylelint": {
         "extends": "/usr/local/lib/node_modules/stylelint-config-standard",
         "plugins": [
