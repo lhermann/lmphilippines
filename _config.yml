@@ -158,7 +158,7 @@ exclude:
   - serve.sh
   - sync.sh
 
-gems:
+plugins:
   - jekyll-paginate
   # - jekyll-assets
 
