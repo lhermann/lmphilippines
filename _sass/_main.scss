@@ -186,6 +186,12 @@ figure {
     }
 }
 
+abbr[title] {
+    border-bottom: 1px dotted $c-gray-4;
+    text-decoration: none;
+    // text-decoration: underline dotted;
+}
+
 
 
 // OBJECTS
