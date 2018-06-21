@@ -55,7 +55,7 @@
  */
 $delay-in: 0;
 
-@for $i from 1 through 5 {
+@for $i from 1 through 6 {
     .c-mobile-nav li:nth-child(#{$i}) {
         transition: $global-transition #{$delay-in}s; /* [1] */
     }

@@ -8,14 +8,14 @@ permalink: /videos/
 ## 2017
 
 <div class="o-ratio  o-ratio--16:9">
-    <iframe src="https://www.youtube.com/embed/2do3VAdRqs4" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Video 'The Lifeline' from 2017" src="https://www.youtube.com/embed/2do3VAdRqs4" frameborder="0" allowfullscreen></iframe>
 </div>
 <hr>
 
 ## 2014
 
 <div class="o-ratio  o-ratio--16:9">
-    <iframe src="https://www.youtube.com/embed/Ib2mcmudvdE" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Video 'Past, Present, Future' from 2014" src="https://www.youtube.com/embed/Ib2mcmudvdE" frameborder="0" allowfullscreen></iframe>
 </div>
 <hr>
 
@@ -24,12 +24,12 @@ permalink: /videos/
 <div class="o-layout o-layout--tiny">
     <div class="o-layout__item u-1/2@tablet">
         <div class="o-ratio o-ratio--16:9 u-mt--">
-            <iframe src="https://www.youtube.com/embed/3ie_XSDLWIE?list=PL78B51A02CC2ACFE9" frameborder="0" allowfullscreen></iframe>
+            <iframe title="Video 'New Horizons' part 1 from 2013" src="https://www.youtube.com/embed/3ie_XSDLWIE?list=PL78B51A02CC2ACFE9" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     <div class="o-layout__item  u-1/2@tablet">
         <div class="o-ratio o-ratio--16:9 u-mt--">
-            <iframe src="https://www.youtube.com/embed/weH3Ad0Ob14" frameborder="0" allowfullscreen></iframe>
+            <iframe title="Video 'New Horizons' part 2 from 2013" src="https://www.youtube.com/embed/weH3Ad0Ob14" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -38,13 +38,13 @@ permalink: /videos/
 ## 2011
 
 <div class="o-ratio  o-ratio--16:9">
-    <iframe src="https://www.youtube.com/embed/V4B1LcQkUhs" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Video 'Before and After' from 2011" src="https://www.youtube.com/embed/V4B1LcQkUhs" frameborder="0" allowfullscreen></iframe>
 </div>
 <hr>
 
 ## 2010
 
 <div class="o-ratio  o-ratio--16:9">
-    <iframe src="https://www.youtube.com/embed/SVBLKblfk5c" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Video 'To be a missionary' from 2010" src="https://www.youtube.com/embed/SVBLKblfk5c" frameborder="0" allowfullscreen></iframe>
 </div>
 <hr>

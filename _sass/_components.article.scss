@@ -50,16 +50,6 @@
             background-color: $c-white;
             height: $unit * 3;
         }
-
-        // &:after {
-        //     display: block;
-        //     position: absolute;
-        //     bottom: -1px;
-        //     width: 100%;
-        //     height: 50%;
-        //     // @include clothoid-gradient($c-white, 1, 0, to top);
-        //     background-image: linear-gradient(to top, $c-white, rgba($c-white, .5) 50%, 65%, rgba($c-white, 0));
-        // }
     }
 
     .c-article__header {

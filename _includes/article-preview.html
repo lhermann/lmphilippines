@@ -1,22 +1,27 @@
 <article class="c-article">
 
-    <a class="c-article__overlay" href="{{ post.url }}"></a>
+    <a class="c-article__overlay" href="{{ post.url }}" title="Link to article '{{ post.title }}'"></a>
 
-    <figure class="c-figure c-figure--wide c-figure--round c-article__image" style="background-image: url(
-        {% if post.cover-image %}
-            '/images/{{post.cover-image}}'
-        {% else %}
-            {% if post.categories contains "Pinagbayanan" %} '/assets/img/pinagbayanan-3by1.jpg'
-            {% elsif post.categories contains "Binuangan" %} '/assets/img/binuangan-3by1.jpg'
-            {% elsif post.categories contains "Agbalite" %} '/assets/img/agbalite-3by1.jpg'
-            {% elsif post.categories contains "Sulong-Ipil" %} '/assets/img/sulung-ipil-3by1.jpg'
-            {% elsif post.categories contains "High School" %} '/assets/img/high-school-3by1.jpg'
-            {% elsif post.categories contains "Prison Ministry" %} '/assets/img/prison-ministry-3by1.jpg'
-            {% else %} '/assets/img/placeholder-3by1.jpg'
-            {% endif %}
-        {% endif %}
-    )">
-    </figure>
+    {% if post.cover-image %}
+        {% assign image = 'images/' | append: post.cover-image %}
+    {% elsif post.categories contains "Pinagbayanan" %}
+        {% assign image = '/assets/img/pinagbayanan-3by1.jpg' %}
+    {% elsif post.categories contains "Binuangan" %}
+        {% assign image = '/assets/img/binuangan-3by1.jpg' %}
+    {% elsif post.categories contains "Agbalite" %}
+        {% assign image = '/assets/img/agbalite-3by1.jpg' %}
+    {% elsif post.categories contains "Sulong-Ipil" %}
+        {% assign image = '/assets/img/sulung-ipil-3by1.jpg' %}
+    {% elsif post.categories contains "High School" %}
+        {% assign image = '/assets/img/high-school-3by1.jpg' %}
+    {% elsif post.categories contains "Prison Ministry" %}
+        {% assign image = '/assets/img/prison-ministry-3by1.jpg' %}
+    {% else %}
+        {% assign image = '/assets/img/placeholder-3by1.jpg' %}
+    {% endif %}
+
+    <figure class="c-figure c-figure--wide c-figure--round c-article__image"
+        style="background-image: url({{image}})"></figure>
 
     <header class="c-article__header">
         <h2 class="c-article__title">

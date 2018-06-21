@@ -45,7 +45,7 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         //lmphilippines.org
+url:         https://www.lmphilippines.org
 source:      .
 destination: ./_site
 plugins_dir: ./_plugins
@@ -157,6 +157,7 @@ exclude:
   - serve.command
   - serve.sh
   - sync.sh
+  - _cache
 
 plugins:
   - jekyll-paginate
