@@ -3,9 +3,9 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="{{ site.inc.title }}">
 
-<meta property="og:image" content="{{ site.url }}/assets/img/LMP-Logo-fb.jpg"/>
-{% if site.inc.cover-image %}<meta property="og:image" content="{{ site.url }}{{ site.inc.cover-image }}"/>{% endif %}
 {% if page.cover-image %}<meta property="og:image" content="{{ site.url }}{% if page.layout == 'post' %}/images/{% endif %}{{ page.cover-image }}"/>{% endif %}
+{% if site.inc.cover-image %}<meta property="og:image" content="{{ site.url }}{{ site.inc.cover-image }}"/>{% endif %}
+<meta property="og:image" content="{{ site.url }}/assets/img/LMP-Logo-fb.jpg"/>
 
 {% if page.excerpt %}
 <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords:72 }}"/>
