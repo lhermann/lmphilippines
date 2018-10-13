@@ -1,0 +1,20 @@
+///* ========================================================================
+//   #COLORS
+//   ======================================================================== */
+
+$utility-colors: (
+  primary: $c-primary,
+  secondary: $c-secondary,
+  tertiary: $c-tertiary,
+  "green": $c-green,
+  "red": $c-red,
+  "white": $c-white,
+  "black": $c-black,
+  "gray-3": $c-gray-3
+) !default;
+
+@each $property-namespace, $property in $utility-colors {
+    .u-#{$property-namespace} {
+        color: $property;
+    }
+}
