@@ -3,7 +3,7 @@
     <a class="c-article__overlay" href="{{ post.url }}" title="Link to article '{{ post.title }}'"></a>
 
     {% if post.cover-image %}
-        {% assign image = 'images/' | append: post.cover-image %}
+        {% assign image = '/images/' | append: post.cover-image %}
     {% elsif post.categories contains "Pinagbayanan" %}
         {% assign image = '/assets/img/pinagbayanan-3by1.jpg' %}
     {% elsif post.categories contains "Binuangan" %}

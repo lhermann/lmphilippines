@@ -11,7 +11,6 @@ categories:
 author:
     name: Rose Enriquez
     bio: Missionary Teacher in the village of Sulong Ipil
-    image:
     role: teacher
 ---
 
