@@ -3,7 +3,6 @@ layout: page
 
 title: About Us
 permalink: /about-us/
-
 ---
 
 Welcome to the Laymen Ministries website dedicated to our work in the Philippines. We have two projects, both of which are in Occidental Mindoro. We are working with the Iraya Mangyan tribe in three areas: health and community development, education, and evangelism. Conditions in the Mangyan villages are terrible. Disease, malnutrition, illiteracy, ignorance, exploitation, illegal logging and fishing are devastating both the lives and livelihoods of the Mangyans. Our goal is to bring freedom in Christ through education. Our other work in the Philippines is a prison ministry. We have two full-time layworkers that train and encourage inmates that are receptive to Bible truths to become effective missionaries in the prison. The ministry has been very successful and hundreds have been brought to the Lord.
@@ -17,9 +16,11 @@ Welcome to the Laymen Ministries website dedicated to our work in the Philippine
     <div class="o-box o-box--small">
         <div class="o-layout">
             <div class="o-layout__item u-1/2@tablet">
-                Laymen Ministries Philippines, Inc.
-                <br>Kaupawan, Sulong Ipil, Brgy. Fatima
-                <br>Mamburao, Occidental Mindoro, PH
+                Katutubo Excel Schools, Inc.
+                <br/>Kaupawan, Sulong Ipil
+                <br/>Brgy. Fatima
+                <br/>Mamburao 5106
+                <br/>Philippines
             </div>
             <div class="o-layout__item u-1/2@tablet">
                 <strong>Tel:</strong> 63-908-881-3104
