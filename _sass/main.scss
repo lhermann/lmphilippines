@@ -238,11 +238,12 @@ abbr[title] {
 @import "components.figure";
 @import "components.category-list";
 @import "components.links";
-// @import "components.featherlight";
 @import "components.avatar";
 
-.o-crop__content {
-    max-height: 100%;
+.o-crop__content, {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .c-info {
@@ -307,6 +308,9 @@ abbr[title] {
         }
     }
 
+
+// PLUGINS
+@import "plugins.featherlight";
 
 
 // UTILITIES
