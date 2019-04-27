@@ -38,6 +38,6 @@ $inuit-responsive-spacing-sizes: (
 );
 
 $inuit-crops: (
-  (1:1),
-  (16:9),
+  "1\\:1"   : (1:1),
+  "16\\:9"  : (16:9)
 );

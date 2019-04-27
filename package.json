@@ -4,7 +4,7 @@
     "description": "Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)",
     "main": "_site/index.html",
     "dependencies": {
-        "inuitcss": "^6.0.0-beta.5",
+        "inuitcss": "^6.0.0",
         "lazysizes": "^4.0.1"
     },
     "devDependencies": {
