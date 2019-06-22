@@ -2,19 +2,18 @@
 //   #COLORS
 //   ======================================================================== */
 
-$utility-colors: (
-  primary: $c-primary,
-  secondary: $c-secondary,
-  tertiary: $c-tertiary,
-  "green": $c-green,
-  "red": $c-red,
-  "white": $c-white,
-  "black": $c-black,
-  "gray-3": $c-gray-3
+$colors: (
+  "brand": $c-brand-100 $c-brand-300 $c-brand-500 $c-brand-700 $c-brand-900,
+  "green": $c-green-100 $c-green-300 $c-green-500 $c-green-700 $c-green-900,
+  "orange": $c-orange-100 $c-orange-300 $c-orange-500 $c-orange-700 $c-orange-900,
+  "red": $c-red-100 $c-red-300 $c-red-500 $c-red-700 $c-red-900,
+  "gray": $c-gray-100 $c-gray-300 $c-gray-500 $c-gray-700 $c-gray-900,
 ) !default;
 
-@each $property-namespace, $property in $utility-colors {
-    .u-#{$property-namespace} {
-        color: $property;
+@each $name, $list in $colors {
+  @each $color, $i in $list {
+    .u-#{$name}-#{$i} {
+        color: $color;
     }
+  }
 }

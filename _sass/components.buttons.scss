@@ -36,7 +36,7 @@
    ========================================================================== */
 
 .c-btn--primary {
-  background-color: $c-primary;
+  background-color: $c-brand-500;
 
   &,
   &:hover,
@@ -48,13 +48,13 @@
 
   &:hover,
   &:focus {
-    background-color: $c-primary-dark;
+    background-color: $c-brand-700;
   }
 
 }
 
 .c-btn--secondary {
-  background-color: $c-secondary;
+  background-color: $c-orange-500;
 
   &,
   &:hover,
@@ -66,13 +66,13 @@
 
   &:hover,
   &:focus {
-    background-color: $c-secondary-dark;
+    background-color: $c-orange-700;
   }
 
 }
 
 .c-btn--tertiary {
-  background-color: $c-tertiary;
+  background-color: $c-green-500;
 
   &,
   &:hover,
@@ -84,26 +84,26 @@
 
   &:hover,
   &:focus {
-    background-color: $c-tertiary-dark;
+    background-color: $c-green-700;
   }
 
 }
 
 .c-btn--gray {
-  background-color: $c-gray-2;
+  background-color: $c-gray-200;
 
   &,
   &:hover,
   &:active,
   &:focus {
     text-decoration: none;
-    color: $c-gray-7;
+    color: $c-gray-700;
   }
 
   &:hover,
   &:focus {
-    background-color: $c-gray-7;
-    color: $c-gray-2;
+    background-color: $c-gray-700;
+    color: $c-gray-200;
   }
 
 }
@@ -180,21 +180,21 @@ $btn-ghost-border-width: 1px;
     }
 
     &.c-btn--primary {
-        color: $c-primary-dark;
+        color: $c-brand-700;
 
     }
 
     &.c-btn--secondary {
-        color: $c-secondary-dark;
+        color: $c-orange-700;
 
     }
 
     &.c-btn--tertiary {
-        color: $c-tertiary-dark;
+        color: $c-green-700;
     }
 
     &.c-btn--gray {
-        color: $c-gray-7;
+        color: $c-gray-700;
     }
 
     &.c-btn--white {

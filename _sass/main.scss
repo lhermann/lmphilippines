@@ -166,7 +166,7 @@ blockquote {
     padding: $unit-tiny $unit;
 
     p {
-        color: $c-gray-7;
+        color: $c-gray-700;
         font-style: italic;
 
         &:last-child {
@@ -187,9 +187,16 @@ figure {
 }
 
 abbr[title] {
-    border-bottom: 1px dotted $c-gray-4;
+    border-bottom: 1px dotted $c-gray-400;
     text-decoration: none;
     // text-decoration: underline dotted;
+}
+
+dd {
+    margin-left: 0;
+    font-size: .7em;
+    font-weight: bold;
+    color: $c-faded;
 }
 
 
@@ -208,6 +215,7 @@ abbr[title] {
 @import "../node_modules/inuitcss/objects/objects.ratio";
 @import "../node_modules/inuitcss/objects/objects.crop";
 @import "../node_modules/inuitcss/objects/objects.pack";
+@import "objects.flex";
 
 .o-wrapper--wide {
     max-width: 1440px;
@@ -239,6 +247,7 @@ abbr[title] {
 @import "components.category-list";
 @import "components.links";
 @import "components.avatar";
+@import "components.card";
 
 .o-crop__content, {
   top: 50%;
@@ -247,27 +256,27 @@ abbr[title] {
 }
 
 .c-info {
-    background-color: $c-gray-1;
-    color: $c-gray-7;
+    background-color: $c-gray-100;
+    color: $c-gray-700;
 
     &--primary {
-        background-color: $c-primary-light;
-        color: $c-primary-dark;
+        background-color: $c-brand-300;
+        color: $c-brand-700;
     }
 
     &--secondary {
-        background-color: $c-secondary-light;
-        color: $c-secondary-dark;
+        background-color: $c-orange-100;
+        color: $c-orange-700;
     }
 
     &--tertiary {
-        background-color: $c-tertiary-light;
-        color: $c-tertiary-dark;
+        background-color: $c-green-100;
+        color: $c-green-700;
     }
 
     &--black {
-        background-color: $c-gray-8;
-        color: $c-gray-2;
+        background-color: $c-gray-800;
+        color: $c-gray-200;
     }
 }
 
@@ -277,9 +286,9 @@ abbr[title] {
 
 .c-hero {
     position: relative;
-    background-color: $c-primary;
-    background-image: linear-gradient(200deg, $c-primary-dark, $c-primary-darker);
-    color: $c-primary-lighter;
+    background-color: $c-brand-500;
+    background-image: linear-gradient(200deg, $c-brand-700, $c-brand-900);
+    color: $c-brand-300;
 }
 
     .c-hero__body {
@@ -334,9 +343,8 @@ abbr[title] {
     opacity: .6;
 }
 
-.u-lead {
-    font-size: 120%;
-}
+.u-lead { font-size: 1.2em; }
+.u-small { font-size: 0.8em; }
 
 .u-thin {
     font-weight: 400;
@@ -395,4 +403,8 @@ abbr[title] {
 
 .u-db {
     display: block;
+}
+
+.u-h-full {
+    height: 100%;
 }
