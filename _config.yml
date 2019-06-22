@@ -1,21 +1,20 @@
 # http://www.lmn.org/philippines/wordpress/?page_id=1086
 # http://www.lmn.org/philippines/galery_2/main.php
 
-
 inc:
   # Blog Information
-  title:        "Laymen Ministries Philippines"
-  subtitle:     "God's work among the natives in Mindoro"
-  cover-image:  /assets/img/cover/kaupawan.jpg
-  logo:         /assets/img/lmp-logo.svg
+  title: "Laymen Ministries Philippines"
+  subtitle: "God's work among the natives in Mindoro"
+  cover-image: /assets/img/cover/kaupawan.jpg
+  logo: /assets/img/lmp-logo.svg
 
   # Company information
-  company:      LMP
-  url:          http://lmphilippines.org/
-  facebook:     false
-  twitter:      false
-  gplus:        false
-  about_link:   /about/
+  company: LMP
+  url: http://lmphilippines.org/
+  facebook: false
+  twitter: false
+  gplus: false
+  about_link: /about/
 
   # Product Information
   # product_link: http://incorporated.sendtoinc.com/
@@ -24,41 +23,38 @@ inc:
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
+    shortname: false
 
   # Sharing settings
   sharing:
-    twitter:    false
-    facebook:   false
-    gplus:      false
-    hn:         false
+    twitter: false
+    facebook: false
+    gplus: false
+    hn: false
 
-
- # Analytics
+  # Analytics
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
 
-
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Crimson+Text:600|Raleway:400,600'
+  google_font: "Crimson+Text:600|Raleway:400,600"
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         https://www.lmphilippines.org
-source:      .
+url: https://www.lmphilippines.org
+source: .
 destination: ./_site
 plugins_dir: ./_plugins
 layouts_dir: ./_layouts
-timezone:    nil
+timezone: nil
 
 collections:
   category:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: category
     values:
@@ -66,38 +62,38 @@ defaults:
 
 # Image directories
 article_img_dir: /images/articles
-wp_img_dir:      /images/wp-uploads
-img_dir:         /images
+wp_img_dir: /images/wp-uploads
+img_dir: /images
 
 # Show future posts
-future:      false
+future: false
 show_drafts: nil
 limit_posts: 0
 highlighter: rouge
 
 # permalink:     pretty
-permalink:     /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
 paginate_path: page:num
-paginate:      10
+paginate: 10
 
-markdown:      kramdown
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
+markdown: kramdown
+markdown_ext: markdown,mkd,mkdn,md
+textile_ext: textile
 
 excerpt_separator: "<!-- more -->"
 
-safe:        false
-host:        localhost
-port:        4000
-baseurl:     /
-lsi:         false
+safe: false
+host: localhost
+port: 4000
+baseurl: /
+lsi: false
 
 maruku:
-  use_tex:    false
-  use_divs:   false
+  use_tex: false
+  use_divs: false
   png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+  png_dir: images/latex
+  png_url: /images/latex
 
 rdiscount:
   extensions: []
@@ -165,32 +161,20 @@ plugins:
   # - jekyll-assets
 
 menu:
-  -
-    label: "About Us"
+  - label: "About Us"
     url: /about-us/
     menu:
-      -
-        label: "Laymen Ministries"
+      - label: "Laymen Ministries"
         url: /lmp/
-      -
-        label: "Katutubo Excel Schools Inc."
+      - label: "Katutubo Excel Schools Inc."
         url: /kesi/
-      -
-        label: "Sablayan Prison Ministry"
+      - label: "Sablayan Prison Ministry"
         url: /prison-ministry/
-  -
-    label: "Get Involved"
+  - label: "Get Involved"
     url: /get-involved/
-  -
-    label: "Support Us"
+  - label: "Support Us"
     url: /support-us/
-  -
-    label: "Videos"
+  - label: "Videos"
     url: /videos/
-  -
-    label: "Gallery"
+  - label: "Gallery"
     url: http://gallery.lmphilippines.org
-
-
-
-
