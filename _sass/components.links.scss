@@ -13,12 +13,16 @@
 
     &--opacity {
         transition: opacity $global-transition;
-        opacity: .6;
+        opacity: .75;
 
         &:focus,
         &:hover {
             opacity: 1;
         }
+    }
+
+    &.o-crop {
+        border-bottom-width: 0;
     }
 }
 

@@ -11,9 +11,15 @@ $colors: (
 ) !default;
 
 @each $name, $list in $colors {
-  @each $color, $i in $list {
-    .u-#{$name}-#{$i} {
+  @each $color in $list {
+    $i: (index($list, $color) * 2) - 1 ;
+
+    .u-#{$name}-#{$i}00 {
         color: $color;
+    }
+
+    .u-bg-#{$name}-#{$i}00 {
+        background-color: $color;
     }
   }
 }
