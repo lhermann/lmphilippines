@@ -9,11 +9,11 @@ Welcome to the Laymen Ministries website dedicated to our work in the Philippine
 
 ## Contact
 
-<div class="c-info c-info--tertiary u-mb">
-    <header class="o-box o-box--small c-info__head">
+<div class="c-card c-card--green u-mb">
+    <header class="c-card__head">
         Our headquarters in the Philippines:
     </header>
-    <div class="o-box o-box--small">
+    <div class="c-card__content">
         <div class="o-layout">
             <div class="o-layout__item u-1/2@tablet">
                 Katutubo Excel Schools, Inc.
@@ -31,11 +31,11 @@ Welcome to the Laymen Ministries website dedicated to our work in the Philippine
     </div>
 </div>
 
-<div class="c-info c-info--secondary u-mb">
-    <header class="o-box o-box--small c-info__head">
+<div class="c-card c-card--orange u-mb">
+    <header class="c-card__head">
         Our headquarters in the US:
     </header>
-    <div class="o-box o-box--small">
+    <div class="c-card__content">
         <div class="o-layout">
             <div class="o-layout__item u-1/2@tablet">
                 Laymen Ministries
@@ -51,4 +51,4 @@ Welcome to the Laymen Ministries website dedicated to our work in the Philippine
     </div>
 </div>
 
-To read about how Laymen Ministries started, [go here](http://www.lmn.org/aboutus_humblebeginnings.html).
+Read about how Laymen Ministries started: [http://www.lmn.org/aboutus_humblebeginnings.html]().
