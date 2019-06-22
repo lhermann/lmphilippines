@@ -8,21 +8,19 @@ cover-image: /assets/img/cover/panorama.jpg
 
 Each year, volunteers coming from different parts of the world, are joining the local team to help the Katutubos in Occidental Mindoro. Experiences and stories prove that each volunteer has benefited from his time helping others.
 
-How about you? Do you want to get actively involved in frontline mission work? There are basically two options:
-
 ---
 
 ## Where can I get invloved?
 
-### Teacher
+How about you? Do you want to get actively involved in frontline mission work?
 
-<figure class="c-figure c-figure--left u-1/3@tablet">
+<figure class="c-figure c-figure--left u-1/3@tablet u-mb">
     <img class="u-zoom u-zoom--3x u-zoom--left" alt="Christy with Students" src="{{site.img_dir}}/2017/07/christys-students-800.jpg">
 </figure>
 
-Teachers are needed for the elementary and secondary school. A professional teacher degree is not needed, but mostly welcomed. Important is a love for children, a willingness to serve others, an openness to learn and adapt to a simple lifestyle in remote areas and a spiritual attitude. The school years starts in August and ends in June.
+**Missionary Teacher** are needed for the elementary and secondary school. A professional teacher degree is not needed, but mostly welcomed. Important is a love for children, a willingness to serve others, an openness to learn and adapt to a simple lifestyle in remote areas and a spiritual attitude. The school years starts in August and ends in June.
 
-
+<!--
 ### Volunteer
 
 <figure class="c-figure c-figure--left u-1/3@tablet">
@@ -31,35 +29,36 @@ Teachers are needed for the elementary and secondary school. A professional teac
 
 Volunteers are needed mainly in the high school management. This includes assisting in the kitchen, garden and housekeeping. As usual in mission projects, everyone is assisting with his abilities to serve the people.
 Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
+-->
 
 ---
 
 ## Who can get involved?
 
-<div class="o-layout o-layout--small o-layout--stretch u-text-center">
-    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
-            <p class="u-ic u-ic--check u-ic--huge"></p>
-            <p>Above 18 years of age</p>
-        </div>
+<div class="o-flex o-flex--unit o-flex--wrap u-text-center">
+    <div class="o-flex__item u-1/2 u-1/4@tablet">
+    <div class="c-card c-card--green">
+        <i class="u-ic u-ic--check u-ic--huge u-mb-"></i>
+        <div>Above 18 years of age</div>
     </div>
-    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
-            <p class="u-ic u-ic--check u-ic--huge"></p>
-            <p>Willingness to serve and learn</p>
-        </div>
     </div>
-    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
-            <p class="u-ic u-ic--check u-ic--huge"></p>
-            <p>Advanced or fluent in English</p>
-        </div>
+    <div class="o-flex__item u-1/2 u-1/4@tablet">
+    <div class="c-card c-card--green">
+        <i class="u-ic u-ic--check u-ic--huge u-mb-"></i>
+        <div>Willingness to serve and learn</div>
     </div>
-    <div class="o-layout__item u-1/2 u-1/4@tablet u-mb-">
-        <div class="o-box o-box--small c-info c-info--tertiary u-1/1">
-            <p class="u-ic u-ic--check u-ic--huge"></p>
-            <p>With a deep love for God</p>
-        </div>
+    </div>
+    <div class="o-flex__item u-1/2 u-1/4@tablet">
+    <div class="c-card c-card--green">
+        <i class="u-ic u-ic--check u-ic--huge u-mb-"></i>
+        <div>Advanced or fluent in English</div>
+    </div>
+    </div>
+    <div class="o-flex__item u-1/2 u-1/4@tablet">
+    <div class="c-card c-card--green">
+        <i class="u-ic u-ic--check u-ic--huge u-mb-"></i>
+        <div>With a deep love for God</div>
+    </div>
     </div>
 </div>
 
@@ -69,26 +68,15 @@ Volunteers should plan to stay for at least 6 month. Longer terms are preferred.
 
 Contact us:
 
-<div class="o-layout o-layout--small o-layout--stretch u-mb-">
-    <div class="o-layout__item u-1/2@tablet u-mb-">
-        <div class="o-box o-box--small c-info c-info--primary u-1/1 u-text-center">
-            <ul class="o-list-bare">
-                <li>
-                    <strong>PH:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 63-908-881-3104
-                </li>
-                <li>
-                    <strong>US:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 1-800-245-1844
-                </li>
-                <li>
-                    <strong>CH:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> 41-79-135-4740
-                </li>
-            </ul>
-        </div>
+<div class="o-flex o-flex--unit o-flex--wrap u-mb">
+    <div class="c-card c-card--blue">
+        <strong>PH:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> +63 908 881 3104
     </div>
-    <div class="o-layout__item u-1/2@tablet u-mb-">
-        <div class="o-box o-box--small c-info c-info--primary u-1/1 u-orient-middle u-orient-center">
-            <noscript data-defuscate data-name="staff" data-domain="lmphilippines.org" data-icon="u-ic u-ic--mail u-ic--large"><em>(This email is protected with javascript)</em></noscript>
-        </div>
+    <div class="c-card c-card--blue">
+        <strong>US:</strong> <span class="u-ic u-ic--phone u-ic--large"></span> +1 (800) 245-1844
+    </div>
+    <div class="c-card c-card--blue">
+        <noscript data-defuscate data-name="staff" data-domain="lmphilippines.org" data-icon="u-ic u-ic--mail u-ic--large"><em>(This email is protected with javascript)</em></noscript>
     </div>
 </div>
 
