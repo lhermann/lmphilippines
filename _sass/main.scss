@@ -192,11 +192,16 @@ abbr[title] {
     // text-decoration: underline dotted;
 }
 
-dd {
-    margin-left: 0;
+dt {
     font-size: .7em;
     font-weight: bold;
-    color: $c-faded;
+    color: rgba(0,0,0,.5);
+    line-height: 1;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: $unit-small;
 }
 
 
