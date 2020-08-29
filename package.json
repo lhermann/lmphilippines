@@ -5,7 +5,7 @@
     "main": "_site/index.html",
     "dependencies": {
         "inuitcss": "^6.0.0",
-        "lazysizes": "^4.0.1"
+        "lazysizes": "^5.2.2"
     },
     "devDependencies": {
         "stylelint": "^10.1.0",
